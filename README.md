@@ -3,7 +3,7 @@
 
 # Jonathan D.A. Jewell
 
-**Where polyglot meets polymathy**
+**Where polygloty meets polymathy**
 
 [![Repos](https://img.shields.io/badge/repos-307-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
 [![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
