@@ -18,11 +18,12 @@
 
 ## What is this?
 
-**hyperpolymath** is an experiment in **polyglot software architecture** — exploring what happens when you:
+Jonathan works with **polyglot software architecture** — exploring what happens when you:
 
-- Refuse to use crappy, sloppy, flawed mainstream tools (no TypeScript, no Node, no Go, no Python*)
+- Avoid builds using crappy, sloppy, obviously flawed mainstream tools with 'convenience code'
 - Prioritize **formal verification** over test coverage
 - Treat repositories as a **graph**, not a list
+- Aspect-first out of the gates
 
 <sub>* Python permitted only for SaltStack automation</sub>
 
@@ -208,6 +209,10 @@ Every repo contains machine-readable Scheme files:
 - `STATE.scm` — Current project state and roadmap
 - `META.scm` — Architecture decisions and rationale
 - `ECOSYSTEM.scm` — Relationship to other projects
+- 'PLAYBOOK.scm' —
+- 'AGENTIC.scm' — 
+- 'NEUROSYM.scm' —
+- ...and [sometimes] 'ANCHOR.scm' drops — Recalibration of AI drift' 
 
 ---
 
