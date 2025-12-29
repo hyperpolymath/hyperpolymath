@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: Palimpsest -->
 <div align="center">
 
-# hyperpolymath
+# Jonathan D.A. Jewell
 
 **Where polyglot meets polymathy**
 
