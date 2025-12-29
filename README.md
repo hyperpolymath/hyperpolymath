@@ -20,7 +20,7 @@
 
 Jonathan works with **polyglot software architecture** — exploring what happens when you:
 
-- Avoid builds using crappy, sloppy, obviously flawed mainstream tools with 'convenience code'
+- Avoid builds using crappy, sloppy, systemically flawed 'convenience code'
 - Prioritize **formal verification** over test coverage
 - Treat repositories as a **graph**, not a list
 - Aspect-first out of the gates
