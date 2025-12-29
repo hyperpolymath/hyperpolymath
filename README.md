@@ -20,8 +20,7 @@
 
 **hyperpolymath** is an experiment in **polyglot software architecture** — exploring what happens when you:
 
-- Build the *same concept* across *50+ programming languages*
-- Refuse to use mainstream tools (no TypeScript, no Node, no Go, no Python*)
+- Refuse to use crappy, sloppy, flawed mainstream tools (no TypeScript, no Node, no Go, no Python*)
 - Prioritize **formal verification** over test coverage
 - Treat repositories as a **graph**, not a list
 
