@@ -23,7 +23,7 @@ Jonathan works with **polyglot software architecture** — exploring what happen
 - Avoid builds using crappy, sloppy, systemically flawed 'convenience code'
 - Prioritize **formal verification** over test coverage
 - Treat repositories as a **graph**, not a list
-- Aspect-first out of the gates
+- Take viable systems models and make their code 'aspect-first' right out of the gate
 
 <sub>* Python permitted only for SaltStack automation</sub>
 
