@@ -44,7 +44,7 @@ These 307 repositories orbit around key themes:
 | Gleam | [sparkle-ssg](https://github.com/hyperpolymath/sparkle-ssg) | Type-safe on BEAM |
 | OCaml | [macrauchenia-ssg](https://github.com/hyperpolymath/macrauchenia-ssg) | Adapt to any environment |
 | Piet | [easel-ssg](https://github.com/hyperpolymath/easel-ssg) | The "Thinking-Breaker" for visual artists |
-| Oblíbený | [obli-ssg](https://github.com/hyperpolymath/obli-ssg) | Creative constraints for content |
+| Oblíbený | [obli-ssg](https://github.com/hyperpolymath/obli-ssg) | Secure edge computing |
 
 <details>
 <summary><b>See all 51 SSGs</b></summary>
