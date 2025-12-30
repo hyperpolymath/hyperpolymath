@@ -247,7 +247,7 @@ Every repo contains machine-readable Scheme files:
 
 <div align="center">
 
-*"The polymath knows that the boundaries between disciplines are artificial."*
+*"The nexialist knows that the boundaries between disciplines are artificial."*
 
 [![AGPL](https://img.shields.io/badge/AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-licence)
