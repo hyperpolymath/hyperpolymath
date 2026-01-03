@@ -1,3 +1,6 @@
+[![License: MPL-2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
+[![Philosophy: Palimpsest](https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg)](https://github.com/hyperpolymath/palimpsest-licence)
+
 <!-- SPDX-License-Identifier: Palimpsest -->
 <div align="center">
 
@@ -7,7 +10,6 @@
 
 [![Repos](https://img.shields.io/badge/repos-307-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
 [![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
-[![License](https://img.shields.io/badge/license-Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-licence)
 [![RSR](https://img.shields.io/badge/standard-RSR_Rhodium-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
 
 *Curating the overlooked. Building the unconventional. Connecting the disparate.*
