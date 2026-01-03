@@ -1,5 +1,5 @@
 [![License: MPL-2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
-[![Philosophy: Palimpsest](https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg)](https://github.com/hyperpolymath/palimpsest-licence)
+[![Philosophy: Palimpsest](https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg)](https://github.com/hyperpolymath/palimpsest-license)
 
 <!-- SPDX-License-Identifier: Palimpsest -->
 <div align="center">
@@ -92,7 +92,7 @@ Combining neural networks with symbolic reasoning. Proofs, not promises.
 | Standard | Purpose |
 |----------|---------|
 | [rhodium-standard-repositories](https://github.com/hyperpolymath/rhodium-standard-repositories) | RSR: Repository quality standard with Bronze/Silver/Gold/Rhodium tiers |
-| [palimpsest-licence](https://github.com/hyperpolymath/palimpsest-licence) | Multi-layered philosophical license framework |
+| [palimpsest-license](https://github.com/hyperpolymath/palimpsest-license) | Multi-layered philosophical license framework |
 | [consent-aware-http](https://github.com/hyperpolymath/consent-aware-http) | HTTP headers for AI usage consent |
 | [maa-framework](https://github.com/hyperpolymath/maa-framework) | Mutually Assured Accountability |
 
@@ -197,7 +197,7 @@ All 307 repos follow the [RSR specification](https://github.com/hyperpolymath/rh
 
 ### Palimpsest Licence
 
-This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath/palimpsest-licence) — a philosophical license framework that layers multiple perspectives:
+This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath/palimpsest-license) — a philosophical license framework that layers multiple perspectives:
 
 - Legal compliance (AGPL-3.0 base)
 - Ethical constraints
@@ -251,6 +251,6 @@ Every repo contains machine-readable Scheme files:
 *"The nexialist knows that the boundaries between disciplines are artificial."*
 
 [![AGPL](https://img.shields.io/badge/AGPL--3.0-blue?style=flat-square)](LICENSE)
-[![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-licence)
+[![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-license)
 
 </div>
