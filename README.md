@@ -9,9 +9,9 @@
 
 **Where polygloty meets polymathy**
 
-[![Repos](https://img.shields.io/badge/repos-307-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
+[![Repos](https://img.shields.io/badge/repos-412-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
 [![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
-[![RSR](https://img.shields.io/badge/standard-RSR_Rhodium-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
+[![RSR](https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
 
 *Curating the overlooked. Building the unconventional. Connecting the disparate.*
 
@@ -26,6 +26,7 @@ Jonathan works with **polyglot software architecture** — exploring what happen
 - Avoid builds using crappy, sloppy, systemically flawed 'convenience code'
 - Take viable systems models and make their code 'aspect-first' right out of the gate
 - Prioritize **formal verification** over test coverage
+- Enforce **post-quantum cryptography** standards across all systems
 
 <sub>* Python permitted only for SaltStack automation</sub>
 
@@ -33,7 +34,7 @@ Jonathan works with **polyglot software architecture** — exploring what happen
 
 ## The Constellations
 
-These 307 repositories orbit around key themes:
+These 412 repositories orbit around key themes:
 
 ### Static Site Generators
 
@@ -73,6 +74,21 @@ Combining neural networks with symbolic reasoning. Proofs, not promises.
 
 ---
 
+### Gitbot Fleet
+
+**6 quality-enforcement bots** working together under [gitbot-fleet](https://github.com/hyperpolymath/gitbot-fleet):
+
+| Bot | Purpose |
+|-----|---------|
+| [rhodibot](https://github.com/hyperpolymath/rhodibot) | RSR structural compliance validation |
+| [echidnabot](https://github.com/hyperpolymath/echidnabot) | Formal verification & security fuzzing |
+| [oikos](https://github.com/hyperpolymath/oikos) | Ecological/economic code standards |
+| [glambot](https://github.com/hyperpolymath/glambot) | Presentation quality & accessibility |
+| [seambot](https://github.com/hyperpolymath/seambot) | Integration health testing |
+| [finishing-bot](https://github.com/hyperpolymath/finishing-bot) | Release readiness validation |
+
+---
+
 ### MCP Servers (Model Context Protocol)
 
 **10 MCP servers** for AI assistant integration:
@@ -92,7 +108,7 @@ Combining neural networks with symbolic reasoning. Proofs, not promises.
 
 | Standard | Purpose |
 |----------|---------|
-| [rhodium-standard-repositories](https://github.com/hyperpolymath/rhodium-standard-repositories) | RSR: Repository quality standard with Bronze/Silver/Gold/Rhodium tiers |
+| [rhodium-standard-repositories](https://github.com/hyperpolymath/rhodium-standard-repositories) | RSR 2026: Repository quality with Bronze/Silver/Gold/Rhodium tiers |
 | [palimpsest-license](https://github.com/hyperpolymath/palimpsest-license) | Multi-layered philosophical license framework |
 | [consent-aware-http](https://github.com/hyperpolymath/consent-aware-http) | HTTP headers for AI usage consent |
 | [maa-framework](https://github.com/hyperpolymath/maa-framework) | Mutually Assured Accountability |
@@ -154,21 +170,38 @@ Combining neural networks with symbolic reasoning. Proofs, not promises.
 
 ---
 
+## Cryptographic Standards
+
+All repos follow **CRYPTO-STANDARD.scm** — post-quantum ready:
+
+| Category | Algorithm | NIST Standard |
+|----------|-----------|---------------|
+| Password hashing | Argon2id (64 MiB, 3 iter) | — |
+| General hashing | BLAKE3, SHAKE3-256 | — |
+| PQ signatures | Dilithium5 | ML-DSA-87 (FIPS 204) |
+| PQ key exchange | Kyber-1024 | ML-KEM-1024 (FIPS 203) |
+| Classical sigs | Ed448 (Ed25519 for SSH) | — |
+| Symmetric | ChaCha20-Poly1305 | — |
+
+**Banned:** MD5, SHA1, SHA256 (use BLAKE3), PBKDF2, bcrypt, RSA (except legacy)
+
+---
+
 ## Repository Stats
 
 ```
 Repos by Language (Top 10):
 
-Rust       ████████████████████████████████████  49
-ReScript   ██████████████████████████           34
-Scheme     ████████████████████████             31
-Ada        █████████████                        17
-JavaScript ██████████                           14
-Shell      ██████████                           14
-Elixir     ███████                              10
-Julia      ███████                              10
-Haskell    ███                                   4
-OCaml      ██                                    3
+Rust       ████████████████████████████████████████  62
+ReScript   ██████████████████████████████           41
+Scheme     █████████████████████████████            38
+Ada        ████████████████████                     26
+JavaScript █████████████████                        22
+Shell      ████████████████                         21
+Elixir     ████████████                             16
+Julia      ████████████                             16
+Haskell    ███████                                   9
+OCaml      █████                                     7
 ```
 
 ---
@@ -187,9 +220,9 @@ OCaml      ██                                    3
 
 ## Key Concepts
 
-### RSR (Rhodium Standard Repositories)
+### RSR 2026 (Rhodium Standard Repositories)
 
-All 307 repos follow the [RSR specification](https://github.com/hyperpolymath/rhodium-standard-repositories):
+All 412 repos follow the [RSR 2026 specification](https://github.com/hyperpolymath/rhodium-standard-repositories):
 
 - **Bronze**: Basic hygiene (README, LICENSE, .gitignore)
 - **Silver**: CI/CD, security scanning, signed commits
@@ -204,17 +237,20 @@ This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath
 - Ethical constraints
 - Attribution archaeology
 
-### SCM Files
+### 6SCM Files
 
-Every repo contains machine-readable Scheme files:
+Every repo contains machine-readable Scheme files in `.machine_readable/6scm/`:
 
-- `STATE.scm` — Current project state and roadmap
-- `META.scm` — Architecture decisions and rationale
-- `ECOSYSTEM.scm` — Relationship to other projects
-- 'PLAYBOOK.scm' —
-- 'AGENTIC.scm' — 
-- 'NEUROSYM.scm' —
-- ...and [sometimes] 'ANCHOR.scm' drops — Recalibration of AI drift' 
+| File | Purpose |
+|------|---------|
+| `STATE.scm` | Current project state, roadmap, blockers |
+| `META.scm` | Architecture decisions (ADR format), rationale |
+| `ECOSYSTEM.scm` | Relationship to other projects, satellites |
+| `PLAYBOOK.scm` | Operational runbooks, maintenance procedures |
+| `AGENTIC.scm` | AI agent interaction patterns, safety boundaries |
+| `NEUROSYM.scm` | Neurosymbolic integration, reasoning rules |
+
+Optional: `ANCHOR.scm` — Recalibration of AI drift
 
 ---
 
@@ -222,19 +258,21 @@ Every repo contains machine-readable Scheme files:
 
 | Component | Purpose |
 |-----------|---------|
-| [.github-private-farm](https://github.com/hyperpolymath/.github-private-farm) | High-compute workflow farm |
-| [.git-private-farm](https://github.com/hyperpolymath/.git-private-farm) | Multi-forge mirroring |
+| [git-dispatcher](https://github.com/hyperpolymath/git-dispatcher) | Central Git automation hub |
+| [gitbot-fleet](https://github.com/hyperpolymath/gitbot-fleet) | Bot fleet orchestration |
 | [cicd-hyper-a](https://github.com/hyperpolymath/cicd-hyper-a) | Neurosymbolic CI/CD |
+| [gitvisor](https://github.com/hyperpolymath/gitvisor) | Repository monitoring |
 | [robot-repo-automaton](https://github.com/hyperpolymath/robot-repo-automaton) | Automated repo management |
+| [.github-private-farm](https://github.com/hyperpolymath/.github-private-farm) | High-compute workflow farm |
 
 ---
 
 ## Getting Started
 
 1. **Explore by theme**: Use the constellation links above
-2. **Check standards**: Start with [RSR](https://github.com/hyperpolymath/rhodium-standard-repositories)
+2. **Check standards**: Start with [RSR 2026](https://github.com/hyperpolymath/rhodium-standard-repositories)
 3. **Try an SSG**: Pick one matching a language you know
-4. **Read STATE.scm**: Every repo has one
+4. **Read STATE.scm**: Every repo has one in `.machine_readable/6scm/`
 
 ---
 
