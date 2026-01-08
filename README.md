@@ -82,7 +82,7 @@ Combining neural networks with symbolic reasoning. Proofs, not promises.
 |-----|---------|
 | [rhodibot](https://github.com/hyperpolymath/rhodibot) | RSR structural compliance validation |
 | [echidnabot](https://github.com/hyperpolymath/echidnabot) | Formal verification & security fuzzing |
-| [oikos](https://github.com/hyperpolymath/oikos) | Ecological/economic code standards |
+| [sustainabot](https://github.com/hyperpolymath/oikos) | Ecological/economic code standards |
 | [glambot](https://github.com/hyperpolymath/glambot) | Presentation quality & accessibility |
 | [seambot](https://github.com/hyperpolymath/seambot) | Integration health testing |
 | [finishing-bot](https://github.com/hyperpolymath/finishing-bot) | Release readiness validation |
