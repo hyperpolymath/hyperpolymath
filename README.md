@@ -1,4 +1,4 @@
-[![License: MPL-2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MPL-2.0]()](https://opensource.org/licenses/MPL-2.0)
 [![Philosophy: Palimpsest]()](https://github.com/hyperpolymath/palimpsest-licence)
 
 
@@ -9,7 +9,7 @@
 
 **Where polygloty meets polymathy**
 
-[![Repos](https://img.shields.io/badge/repos-412-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
+[![Repos](https://img.shields.io/badge/repos-439-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
 [![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
 [![RSR](https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
 
