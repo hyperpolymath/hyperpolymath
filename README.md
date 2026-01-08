@@ -222,7 +222,7 @@ OCaml      █████                                     7
 
 ### RSR 2026 (Rhodium Standard Repositories)
 
-All 412 repos follow the [RSR 2026 specification](https://github.com/hyperpolymath/rhodium-standard-repositories):
+All 439 repos follow the [RSR 2026 specification](https://github.com/hyperpolymath/rhodium-standard-repositories):
 
 - **Bronze**: Basic hygiene (README, LICENSE, .gitignore)
 - **Silver**: CI/CD, security scanning, signed commits
