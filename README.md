@@ -1,13 +1,17 @@
-<!-- SPDX-License-Identifier: Palimpsest -->
+[![License](https://img.shields.io/badge/license-PMPL--1.0-blue.svg)](https://github.com/hyperpolymath/palimpsest-license)
+
+<!-- SPDX-License-Identifier: PMPL-1.0 -->
 <div align="center">
 
 # Jonathan D.A. Jewell
+
+
+
 
 **Where polygloty meets polymathy**
 
 [![Repos](https://img.shields.io/badge/repos-307-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
 [![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
-[![License](https://img.shields.io/badge/license-Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-licence)
 [![RSR](https://img.shields.io/badge/standard-RSR_Rhodium-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
 
 *Curating the overlooked. Building the unconventional. Connecting the disparate.*
@@ -198,7 +202,7 @@ All 307 repos follow the [RSR specification](https://github.com/hyperpolymath/rh
 
 This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath/palimpsest-licence) — a philosophical license framework that layers multiple perspectives:
 
-- Legal compliance (AGPL-3.0 base)
+- Legal compliance (PMPL-1.0 base)
 - Ethical constraints
 - Attribution archaeology
 
@@ -249,7 +253,6 @@ Every repo contains machine-readable Scheme files:
 
 *"The polymath knows that the boundaries between disciplines are artificial."*
 
-[![AGPL](https://img.shields.io/badge/AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-licence)
 
 </div>
