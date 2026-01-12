@@ -38,7 +38,7 @@ Jonathan architects **polyglot software** by exploring the fringes of computatio
 | Go | Rust
 | Python (General) | Julia / Rust
 | Java / Kotlin | Rust / Ada
-| npm / pnpm / bun | Deno / `must-just-nickel`
+| npm / pnpm / bun | Deno / `must-just build system`
 |===
 
 ---
