@@ -1,6 +1,3 @@
-[![License: MPL-2.0]()](https://opensource.org/licenses/MPL-2.0)
-[![Philosophy: Palimpsest]()](https://github.com/hyperpolymath/palimpsest-licence)
-
 
 <!-- SPDX-License-Identifier: Palimpsest -->
 <div align="center">
