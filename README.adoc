@@ -27,7 +27,7 @@ Jonathan architects **polyglot software** by exploring the fringes of computatio
 | **Tier 1 (Core)** | Rust (Systems/WASM), ReScript (Apps), Ada/SPARK (Safety-Critical)
 | **Tier 2 (Logic)** | Gleam/Elixir (BEAM), Julia (Batch), Scheme (Configuration)
 | **Tier 3 (Edge)** | Zig, OCaml, RISC-V Assembly, Piet, APL
-| **Orchestration** | `must-just-nickel`, SaltStack (Python only), Podman-first deployment
+| **Orchestration** | `must-just-nickel`, Terraform/Ansible, nerdctl-first deployment
 |===
 
 ### Technology Fixes
