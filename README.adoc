@@ -5,7 +5,7 @@
 **Where polygloty meets polymathy**
 
 [.text-center]
-image:https://img.shields.io/badge/repos-439-blue?style=flat-square[Repos] image:https://img.shields.io/badge/languages-40+-purple?style=flat-square[Languages] image:https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square[RSR 2026]
+image:https://img.shields.io/badge/repos-456-blue?style=flat-square[Repos] image:https://img.shields.io/badge/languages-40+-purple?style=flat-square[Languages] image:https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square[RSR 2026]
 
 ---
 
@@ -43,7 +43,7 @@ Jonathan architects **polyglot software** by exploring the fringes of computatio
 
 ---
 
-== The Constellations (439 Repositories)
+== The Constellations (456 Repositories)
 
 ### Static Site Generators (51 SSGs)
 One for every paradigm. No runtimes, no bloat.
