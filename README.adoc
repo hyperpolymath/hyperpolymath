@@ -233,7 +233,7 @@ All 439 repos follow the [RSR 2026 specification](https://github.com/hyperpolyma
 
 This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath/palimpsest-license) — a philosophical license framework that layers multiple perspectives:
 
-- Legal compliance (AGPL-3.0 base)
+- Legal compliance (MPL-2.0 base)
 - Ethical constraints
 - Attribution archaeology
 
@@ -289,7 +289,11 @@ Optional: `ANCHOR.scm` — Recalibration of AI drift
 
 *"The nexialist knows that the boundaries between disciplines are artificial."*
 
-[![AGPL](https://img.shields.io/badge/AGPL--3.0-blue?style=flat-square)](LICENSE)
 [![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-license)
 
 </div>
+
+== License
+
+Palimpsest License (PMPL-1.0)
+2025 Jonathan D.A. Jewell
