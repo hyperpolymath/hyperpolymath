@@ -1,71 +1,103 @@
-= Hyperpolymath
-:doctype: article
+= Jonathan D.A. Jewell: Polygloty meets Polymathy
 :icons: font
-:source-highlighter: highlightjs
 :toc: macro
-:toc-title: Navigation
-:idprefix:
-:idseparator: -
-:sectanchors:
-:imagesdir: images
+:toc-title:
+:hardbreaks-option:
 
-// --- BADGES / HEADER ---
-// Replace URLs with your actual social links
-image:https://img.shields.io/badge/Focus-Polymath-blueviolet?style=for-the-badge[Focus]
-image:https://img.shields.io/badge/Code-AsciiDoc-black?style=for-the-badge[Code]
-image:https://img.shields.io/github/last-commit/hyperpolymath/hyperpolymath?style=for-the-badge[Last Commit]
+[.text-center]
+image:https://img.shields.io/badge/repos-439-blue?style=flat-square[Repos] image:https://img.shields.io/badge/languages-40+-purple?style=flat-square[Languages] image:https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square[RSR 2026]
+
+[quote, A.E. van Vogt]
+____
+The nexialist knows that the boundaries between disciplines are artificial.
+____
+
+== Core Mandate
+
+I architect polyglot systems by prioritising **formal verification** over mere test coverage and enforcing **post-quantum cryptography** as a baseline. My workflow avoids the "convenience code" of bloated ecosystems, preferring verified, aspect-first models.
+
+[source,console]
+----
+$ must-just-nickel --version
+must-just-nickel 2026.1.12 (Rhodium Standard)
+
+[SYSTEM STATUS]
+Primary OS: Fedora Kinoite (Atomic)
+Work OS:    Windows 11 Enterprise
+Deploy:     Podman-first (Linux/Minix/macOS/iOS/Android)
+Standards:  RSR 2026 (Bronze → Rhodium)
+License:    Palimpsest (PMPL-1.0)
+----
 
 ---
 
-== 👋 About Me
+== The Tech Stack
 
-Welcome to my digital garden. I traverse wide-ranging disciplines, connecting dots between technology, science, and the arts.
-
-[quote]
-"Study the science of art. Study the art of science. Develop your senses—especially learn how to see. Realize that everything connects to everything else."
--- Leonardo da Vinci
-
-toc::[]
-
-== 🛠️ Technical Arsenal
-
-[cols="1,1,1", frame=none, grid=rows]
+[cols="1,2,2", options="header"]
 |===
-| **Languages** | **Infrastructure** | **Tools & Workflow**
-
-| 🐍 Python
-| ☁️ AWS / Azure
-| 🐧 Linux (Arch/Debian)
-
-| 🦀 Rust
-| 🐳 Docker & K8s
-| 📝 Neovim / VScode
-
-| ☕ Java
-| 🏗️ Terraform
-| 🐙 Git & GitHub Actions
+| Priority | Technologies | Purpose
+| *Tier 1* | Rust, ReScript, Ada/SPARK | Systems, Safety-Critical, WASM
+| *Tier 2* | Gleam, Elixir, Julia | BEAM Services, Scientific Computing
+| *Tier 3* | Scheme, Deno | Configuration (6SCM), Modern Runtimes
+| *Banned* | TypeScript, Node, Go, Python* | *Python restricted to SaltStack only
 |===
 
-== 🔭 Current Endeavors
+---
 
-* [ ] **Learning:** Deep diving into System Design and LLMs.
-* [ ] **Building:** A new automation framework for data synthesis.
-* [x] **Reading:** _The pragmatic Programmer_.
+== The Constellations (439 Repositories)
 
-== 📊 GitHub Stats
+=== Static Site Generators (51 SSGs)
+I maintain an SSG for nearly every viable language to explore compiler boundaries.
+* link:https://github.com/hyperpolymath/anvil-ssg[anvil-ssg (Ada/SPARK)]: Verified content pipelines.
+* link:https://github.com/hyperpolymath/baremetal-ssg[baremetal-ssg (RISC-V)]: Zero-abstraction byte-shunting.
+* link:https://github.com/hyperpolymath/sparkle-ssg[sparkle-ssg (Gleam)]: Type-safe BEAM generation.
 
-// These use the popular github-readme-stats (replace 'hyperpolymath' with your actual username if different)
-[cols="a,a", frame=none, grid=none]
+=== Neurosymbolic AI & Verification
+* link:https://github.com/hyperpolymath/echidna[echidna]: Extensible Cognitive Hybrid Intelligence.
+* link:https://github.com/hyperpolymath/llm-verify[llm-verify]: Formal verification for agentic output.
+* link:https://github.com/hyperpolymath/cicd-hyper-a[cicd-hyper-a]: Haskell-verified CI/CD registry.
+
+=== Gitbot Fleet & MCP Servers
+* **Gitbots:** `rhodibot` (RSR compliance), `echidnabot` (fuzzing), `sustainabot` (oikos).
+* **MCP:** 10 servers including `poly-proof-mcp` (multi-solver theorem proving).
+
+---
+
+== Architectural Rigour: The 6SCM Layer
+
+Every repository contains a machine-readable Scheme layer in `.machine_readable/6scm/` to ensure AI agents and human collaborators remain synchronised.
+
+[horizontal]
+`STATE.scm`:: Roadmap and blockers.
+`META.scm`:: ADRs and architectural rationale.
+`AGENTIC.scm`:: AI interaction patterns and safety boundaries.
+`NEUROSYM.scm`:: Symbolic reasoning rules.
+
+---
+
+== Cryptographic Posture (CRYPTO-STANDARD.scm)
+
+[cols="1,1", options="header"]
 |===
-| image::https://github-readme-stats.vercel.app/api?username=hyperpolymath&show_icons=true&theme=dracula&hide_border=true[Stats]
-| image::https://github-readme-stats.vercel.app/api/top-langs/?username=hyperpolymath&layout=compact&theme=dracula&hide_border=true[Languages]
+| Category | Standard
+| PQ Signatures | Dilithium5 (ML-DSA-87)
+| PQ Key Exchange | Kyber-1024 (ML-KEM-1024)
+| Hashing | BLAKE3 / SHAKE3-256
+| Password Hashing | Argon2id (64 MiB, 3 iterations)
 |===
 
-== 🔗 Connect
+---
 
-* link:https://twitter.com/yourhandle[Twitter,role="external"]
-* link:https://linkedin.com/in/yourhandle[LinkedIn,role="external"]
-* link:mailto:your@email.com[Email Me,role="external"]
+== Infrastructure & Automation
 
-'''
-_Generated with ❤️ in AsciiDoc_
+All builds utilize `must-just-nickel`. I prioritise `podman` for containerisation and provide comprehensive shell support (from `bash` to `nushell` and `minix shell`) via referenced manifests.
+
+* link:https://github.com/hyperpolymath/personal-sysadmin[personal-sysadmin]: Rust-based TUI for Linux orchestration.
+* link:https://github.com/hyperpolymath/scaffoldia[scaffoldia]: Modular repository engine.
+
+---
+
+[.text-center]
+link:https://gitlab.com/hyperpolymath[GitLab] | link:https://github.com/hyperpolymath[GitHub] | link:https://codeberg.org/hyperpolymath[Codeberg]
+
+image:https://img.shields.io/badge/Palimpsest-gold?style=flat-square[Palimpsest License]
