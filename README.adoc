@@ -19,7 +19,7 @@ image:https://img.shields.io/github/last-commit/hyperpolymath/hyperpolymath?styl
 
 == 👋 About Me
 
-Welcome to my digital garden. As a **Hyperpolymath**, I traverse wide-ranging disciplines, connecting dots between technology, science, and the arts.
+Welcome to my digital garden. I traverse wide-ranging disciplines, connecting dots between technology, science, and the arts.
 
 [quote]
 "Study the science of art. Study the art of science. Develop your senses—especially learn how to see. Realize that everything connects to everything else."
