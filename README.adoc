@@ -64,7 +64,7 @@ One for every paradigm. No runtimes, no bloat.
 
 ### MCP Servers & Gitbots
 * **10 MCP Servers**: From `poly-proof-mcp` (Theorem Proving) to `poly-iac-mcp`.
-* **Gitbot Fleet**: Six quality-enforcement bots (rhodibot, echidnabot, sustainabot, etc.).
+* **Gitbot Fleet**: Six quality-enforcement bots (rhodibot, echidnabot, sustainabot, seambot, finishing-bot, and glambot.).
 
 ---
 
