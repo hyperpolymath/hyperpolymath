@@ -30,10 +30,10 @@ Jonathan architects **polyglot software** by exploring the fringes of computatio
 | **Orchestration** | `must-just-nickel`, SaltStack (Python only), Podman-first deployment
 |===
 
-### Banned Technology
+### Technology Fixes
 [cols="1,1", options="header"]
 |===
-| Banned | Replacement
+| FailingTech | Replacement
 | TypeScript / Node.js | ReScript / Deno
 | Go | Rust
 | Python (General) | Julia / Rust
