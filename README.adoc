@@ -1,296 +1,71 @@
+= Hyperpolymath
+:doctype: article
+:icons: font
+:source-highlighter: highlightjs
+:toc: macro
+:toc-title: Navigation
+:idprefix:
+:idseparator: -
+:sectanchors:
+:imagesdir: images
 
-<!-- SPDX-License-Identifier: Palimpsest -->
-<div align="center">
-
-# Jonathan D.A. Jewell
-
-**Where polygloty meets polymathy**
-
-[![Repos](https://img.shields.io/badge/repos-439-blue?style=flat-square)](https://github.com/hyperpolymath?tab=repositories)
-[![Languages](https://img.shields.io/badge/languages-40+-purple?style=flat-square)](#tech-stack)
-[![RSR](https://img.shields.io/badge/standard-RSR_2026-silver?style=flat-square)](https://github.com/hyperpolymath/rhodium-standard-repositories)
-
-*Curating the overlooked. Building the unconventional. Connecting the disparate.*
-
-</div>
-
----
-
-## What is this?
-
-Jonathan works with **polyglot software architecture** — exploring what happens when you:
-
-- Avoid builds using crappy, sloppy, systemically flawed 'convenience code'
-- Take viable systems models and make their code 'aspect-first' right out of the gate
-- Prioritize **formal verification** over test coverage
-- Enforce **post-quantum cryptography** standards across all systems
-
-<sub>* Python permitted only for SaltStack automation</sub>
+// --- BADGES / HEADER ---
+// Replace URLs with your actual social links
+image:https://img.shields.io/badge/Focus-Polymath-blueviolet?style=for-the-badge[Focus]
+image:https://img.shields.io/badge/Code-AsciiDoc-black?style=for-the-badge[Code]
+image:https://img.shields.io/github/last-commit/hyperpolymath/hyperpolymath?style=for-the-badge[Last Commit]
 
 ---
 
-## The Constellations
+== 👋 About Me
 
-These 439 repositories orbit around key themes:
+Welcome to my digital garden. As a **Hyperpolymath**, I traverse wide-ranging disciplines, connecting dots between technology, science, and the arts.
 
-### Static Site Generators
+[quote]
+"Study the science of art. Study the art of science. Develop your senses—especially learn how to see. Realize that everything connects to everything else."
+-- Leonardo da Vinci
 
-**51 SSGs** — one for (almost) every programming language that exists.
+toc::[]
 
-| Language | SSG | Philosophy |
-|----------|-----|------------|
-| Ada/SPARK | [anvil-ssg](https://github.com/hyperpolymath/anvil-ssg) | Forge-in-Forge: verified content pipelines |
-| RISC-V Assembly | [baremetal-ssg](https://github.com/hyperpolymath/baremetal-ssg) | No runtime, no abstractions, just bytes |
-| APL | [iota-ssg](https://github.com/hyperpolymath/iota-ssg) | One small step for sites, one giant leap for simplicity |
-| Gleam | [sparkle-ssg](https://github.com/hyperpolymath/sparkle-ssg) | Type-safe on BEAM |
-| OCaml | [macrauchenia-ssg](https://github.com/hyperpolymath/macrauchenia-ssg) | Adapt to any environment |
-| Piet | [easel-ssg](https://github.com/hyperpolymath/easel-ssg) | The "Thinking-Breaker" for visual artists |
-| Oblíbený | [obli-ssg](https://github.com/hyperpolymath/obli-ssg) | Secure edge computing |
+== 🛠️ Technical Arsenal
 
-<details>
-<summary><b>See all 51 SSGs</b></summary>
+[cols="1,1,1", frame=none, grid=rows]
+|===
+| **Languages** | **Infrastructure** | **Tools & Workflow**
 
-[60-ssg](https://github.com/hyperpolymath/60-ssg) · [anvil-ssg](https://github.com/hyperpolymath/anvil-ssg) · [baremetal-ssg](https://github.com/hyperpolymath/baremetal-ssg) · [canon-ssg](https://github.com/hyperpolymath/canon-ssg) · [chicxulub-ssg](https://github.com/hyperpolymath/chicxulub-ssg) · [consensus-ssg](https://github.com/hyperpolymath/consensus-ssg) · [cpt-ssg](https://github.com/hyperpolymath/cpt-ssg) · [dei-ssg](https://github.com/hyperpolymath/dei-ssg) · [easel-ssg](https://github.com/hyperpolymath/easel-ssg) · [gungir-ssg](https://github.com/hyperpolymath/gungir-ssg) · [hackenbush-ssg](https://github.com/hyperpolymath/hackenbush-ssg) · [iota-ssg](https://github.com/hyperpolymath/iota-ssg) · [jura-ssg](https://github.com/hyperpolymath/jura-ssg) · [liminal-ssg](https://github.com/hyperpolymath/liminal-ssg) · [macrauchenia-ssg](https://github.com/hyperpolymath/macrauchenia-ssg) · [my-ssg](https://github.com/hyperpolymath/my-ssg) · [obli-ssg](https://github.com/hyperpolymath/obli-ssg) · [orbital-ssg](https://github.com/hyperpolymath/orbital-ssg) · [pharos-ssg](https://github.com/hyperpolymath/pharos-ssg) · [qed-ssg](https://github.com/hyperpolymath/qed-ssg) · [rats-ssg](https://github.com/hyperpolymath/rats-ssg) · [redshift-ssg](https://github.com/hyperpolymath/redshift-ssg) · [region-ssg](https://github.com/hyperpolymath/region-ssg) · [saur-ssg](https://github.com/hyperpolymath/saur-ssg) · [sparkle-ssg](https://github.com/hyperpolymath/sparkle-ssg) · [tyrano-ssg](https://github.com/hyperpolymath/tyrano-ssg) · [ultimatum-ssg](https://github.com/hyperpolymath/ultimatum-ssg) · [undo-ssg](https://github.com/hyperpolymath/undo-ssg) · [vindaloo-ssg](https://github.com/hyperpolymath/vindaloo-ssg) · [vladik-ssg](https://github.com/hyperpolymath/vladik-ssg) · [warp-ssg](https://github.com/hyperpolymath/warp-ssg) · and more...
+| 🐍 Python
+| ☁️ AWS / Azure
+| 🐧 Linux (Arch/Debian)
 
-</details>
+| 🦀 Rust
+| 🐳 Docker & K8s
+| 📝 Neovim / VScode
 
----
+| ☕ Java
+| 🏗️ Terraform
+| 🐙 Git & GitHub Actions
+|===
 
-### Neurosymbolic AI & Verification
+== 🔭 Current Endeavors
 
-Combining neural networks with symbolic reasoning. Proofs, not promises.
+* [ ] **Learning:** Deep diving into System Design and LLMs.
+* [ ] **Building:** A new automation framework for data synthesis.
+* [x] **Reading:** _The pragmatic Programmer_.
 
-| Project | Description |
-|---------|-------------|
-| [echidna](https://github.com/hyperpolymath/echidna) | Extensible Cognitive Hybrid Intelligence for Deductive Neural Assistance |
-| [llm-verify](https://github.com/hyperpolymath/llm-verify) | Real verification for LLM-generated code |
-| [cicd-hyper-a](https://github.com/hyperpolymath/cicd-hyper-a) | Neurosymbolic CI/CD with Haskell verification registry |
-| [gitvisor](https://github.com/hyperpolymath/gitvisor) | Logtalk + ArangoDB intelligence for git workflows |
-| [lsm](https://github.com/hyperpolymath/lsm) | Liquid State Machines in Rust |
-| [absolute-zero](https://github.com/hyperpolymath/absolute-zero) | Formal Verification of Certified Null Operations |
+== 📊 GitHub Stats
 
----
+// These use the popular github-readme-stats (replace 'hyperpolymath' with your actual username if different)
+[cols="a,a", frame=none, grid=none]
+|===
+| image::https://github-readme-stats.vercel.app/api?username=hyperpolymath&show_icons=true&theme=dracula&hide_border=true[Stats]
+| image::https://github-readme-stats.vercel.app/api/top-langs/?username=hyperpolymath&layout=compact&theme=dracula&hide_border=true[Languages]
+|===
 
-### Gitbot Fleet
+== 🔗 Connect
 
-**6 quality-enforcement bots** working together under [gitbot-fleet](https://github.com/hyperpolymath/gitbot-fleet):
+* link:https://twitter.com/yourhandle[Twitter,role="external"]
+* link:https://linkedin.com/in/yourhandle[LinkedIn,role="external"]
+* link:mailto:your@email.com[Email Me,role="external"]
 
-| Bot | Purpose |
-|-----|---------|
-| [rhodibot](https://github.com/hyperpolymath/rhodibot) | RSR structural compliance validation |
-| [echidnabot](https://github.com/hyperpolymath/echidnabot) | Formal verification & security fuzzing |
-| [sustainabot](https://github.com/hyperpolymath/oikos) | Ecological/economic code standards |
-| [glambot](https://github.com/hyperpolymath/glambot) | Presentation quality & accessibility |
-| [seambot](https://github.com/hyperpolymath/seambot) | Integration health testing |
-| [finishing-bot](https://github.com/hyperpolymath/finishing-bot) | Release readiness validation |
-
----
-
-### MCP Servers (Model Context Protocol)
-
-**10 MCP servers** for AI assistant integration:
-
-| Server | Purpose |
-|--------|---------|
-| [poly-proof-mcp](https://github.com/hyperpolymath/poly-proof-mcp) | Multi-solver theorem proving |
-| [poly-ssg-mcp](https://github.com/hyperpolymath/poly-ssg-mcp) | Static site generation |
-| [poly-queue-mcp](https://github.com/hyperpolymath/poly-queue-mcp) | Task queue management |
-| [poly-observability-mcp](https://github.com/hyperpolymath/poly-observability-mcp) | Metrics and monitoring |
-| [poly-iac-mcp](https://github.com/hyperpolymath/poly-iac-mcp) | Infrastructure as code |
-| [poly-secret-mcp](https://github.com/hyperpolymath/poly-secret-mcp) | Secrets management |
-
----
-
-### Standards & Governance
-
-| Standard | Purpose |
-|----------|---------|
-| [rhodium-standard-repositories](https://github.com/hyperpolymath/rhodium-standard-repositories) | RSR 2026: Repository quality with Bronze/Silver/Gold/Rhodium tiers |
-| [palimpsest-license](https://github.com/hyperpolymath/palimpsest-license) | Multi-layered philosophical license framework |
-| [consent-aware-http](https://github.com/hyperpolymath/consent-aware-http) | HTTP headers for AI usage consent |
-| [maa-framework](https://github.com/hyperpolymath/maa-framework) | Mutually Assured Accountability |
-
----
-
-### Programming Languages
-
-| Language | Repository | Status |
-|----------|------------|--------|
-| **Oblíbený** | [obli-ssg](https://github.com/hyperpolymath/obli-ssg) | Phase-separated type system |
-| **AffineScript** | [affinescript](https://github.com/hyperpolymath/affinescript) | OCaml compiler |
-| **My** | [my-lang](https://github.com/hyperpolymath/my-lang) | Progressive complexity language |
-| **Wokelang** | [wokelang](https://github.com/hyperpolymath/wokelang) | Awareness-focused computing |
-| **Betlang** | [betlang](https://github.com/hyperpolymath/betlang) | Ternary probabilistic programming |
-
----
-
-### Developer Tools
-
-| Tool | Description |
-|------|-------------|
-| [personal-sysadmin](https://github.com/hyperpolymath/personal-sysadmin) | AI-assisted Linux sysadmin (Rust TUI) |
-| [scaffoldia](https://github.com/hyperpolymath/scaffoldia) | Modular repo scaffolding engine |
-| [git-seo](https://github.com/hyperpolymath/git-seo) | Make git repos discoverable |
-| [tree-navigator](https://github.com/hyperpolymath/tree-navigator) | Type-safe directory export (Ada 2022) |
-| [kith](https://github.com/hyperpolymath/kith) | .well-known TUI manager (Ada) |
-| [raze-tui](https://github.com/hyperpolymath/raze-tui) | Rust-Ada-Zig TUI library |
-
----
-
-## Tech Stack
-
-### Preferred (in order)
-
-```
-┌─────────────────────────────────────────────────────────┐
-│ 1. Rust       │ Systems, CLI, WASM, performance        │
-│ 2. ReScript   │ Applications (compiles to JS)          │
-│ 3. Ada/SPARK  │ Safety-critical, formal verification   │
-│ 4. Gleam      │ BEAM/JS backend services               │
-│ 5. Elixir     │ Distributed systems, Phoenix           │
-│ 6. Julia      │ Batch processing, scientific           │
-│ 7. Scheme     │ Configuration (STATE.scm, META.scm)    │
-│ 8. Deno       │ Runtime (replaces Node.js)             │
-└─────────────────────────────────────────────────────────┘
-```
-
-### Banned
-
-| Technology | Replacement |
-|------------|-------------|
-| TypeScript | ReScript |
-| Node.js | Deno |
-| npm/yarn/pnpm/bun | Deno |
-| Go | Rust |
-| Python (general) | Julia/Rust |
-| Java/Kotlin | Rust |
-
----
-
-## Cryptographic Standards
-
-All repos follow **CRYPTO-STANDARD.scm** — post-quantum ready:
-
-| Category | Algorithm | NIST Standard |
-|----------|-----------|---------------|
-| Password hashing | Argon2id (64 MiB, 3 iter) | — |
-| General hashing | BLAKE3, SHAKE3-256 | — |
-| PQ signatures | Dilithium5 | ML-DSA-87 (FIPS 204) |
-| PQ key exchange | Kyber-1024 | ML-KEM-1024 (FIPS 203) |
-| Classical sigs | Ed448 (Ed25519 for SSH) | — |
-| Symmetric | ChaCha20-Poly1305 | — |
-
-**Banned:** MD5, SHA1, SHA256 (use BLAKE3), PBKDF2, bcrypt, RSA (except legacy)
-
----
-
-## Repository Stats
-
-```
-Repos by Language (Top 10):
-
-Rust       ████████████████████████████████████████  62
-ReScript   ██████████████████████████████           41
-Scheme     █████████████████████████████            38
-Ada        ████████████████████                     26
-JavaScript █████████████████                        22
-Shell      ████████████████                         21
-Elixir     ████████████                             16
-Julia      ████████████                             16
-Haskell    ███████                                   9
-OCaml      █████                                     7
-```
-
----
-
-## Project Families
-
-| Family | Count | Description |
-|--------|-------|-------------|
-| `*-ssg` | 51 | Static site generators |
-| `poly-*-mcp` | 10 | MCP servers |
-| `asdf-*` | 9 | Version manager plugins |
-| `kea-*` | 4 | Kea ecosystem |
-| `zotero-*` | 3 | Research tools |
-
----
-
-## Key Concepts
-
-### RSR 2026 (Rhodium Standard Repositories)
-
-All 439 repos follow the [RSR 2026 specification](https://github.com/hyperpolymath/rhodium-standard-repositories):
-
-- **Bronze**: Basic hygiene (README, LICENSE, .gitignore)
-- **Silver**: CI/CD, security scanning, signed commits
-- **Gold**: Property testing, formal verification
-- **Rhodium**: Full neurosymbolic validation
-
-### Palimpsest Licence
-
-This organization uses the [Palimpsest Licence](https://github.com/hyperpolymath/palimpsest-license) — a philosophical license framework that layers multiple perspectives:
-
-- Legal compliance (MPL-2.0 base)
-- Ethical constraints
-- Attribution archaeology
-
-### 6SCM Files
-
-Every repo contains machine-readable Scheme files in `.machine_readable/6scm/`:
-
-| File | Purpose |
-|------|---------|
-| `STATE.scm` | Current project state, roadmap, blockers |
-| `META.scm` | Architecture decisions (ADR format), rationale |
-| `ECOSYSTEM.scm` | Relationship to other projects, satellites |
-| `PLAYBOOK.scm` | Operational runbooks, maintenance procedures |
-| `AGENTIC.scm` | AI agent interaction patterns, safety boundaries |
-| `NEUROSYM.scm` | Neurosymbolic integration, reasoning rules |
-
-Optional: `ANCHOR.scm` — Recalibration of AI drift
-
----
-
-## Infrastructure
-
-| Component | Purpose |
-|-----------|---------|
-| [git-dispatcher](https://github.com/hyperpolymath/git-dispatcher) | Central Git automation hub |
-| [gitbot-fleet](https://github.com/hyperpolymath/gitbot-fleet) | Bot fleet orchestration |
-| [cicd-hyper-a](https://github.com/hyperpolymath/cicd-hyper-a) | Neurosymbolic CI/CD |
-| [gitvisor](https://github.com/hyperpolymath/gitvisor) | Repository monitoring |
-| [robot-repo-automaton](https://github.com/hyperpolymath/robot-repo-automaton) | Automated repo management |
-| [.github-private-farm](https://github.com/hyperpolymath/.github-private-farm) | High-compute workflow farm |
-
----
-
-## Getting Started
-
-1. **Explore by theme**: Use the constellation links above
-2. **Check standards**: Start with [RSR 2026](https://github.com/hyperpolymath/rhodium-standard-repositories)
-3. **Try an SSG**: Pick one matching a language you know
-4. **Read STATE.scm**: Every repo has one in `.machine_readable/6scm/`
-
----
-
-## Contact
-
-- **GitHub**: [@hyperpolymath](https://github.com/hyperpolymath)
-- **GitLab**: [@hyperpolymath](https://gitlab.com/hyperpolymath)
-- **Codeberg**: [@hyperpolymath](https://codeberg.org/hyperpolymath)
-- **Bitbucket**: [@hyperpolymath](https://bitbucket.org/hyperpolymath)
-
----
-
-<div align="center">
-
-*"The nexialist knows that the boundaries between disciplines are artificial."*
-
-[![Palimpsest](https://img.shields.io/badge/Palimpsest-gold?style=flat-square)](https://github.com/hyperpolymath/palimpsest-license)
-
-</div>
-
-== License
-
-Palimpsest License (PMPL-1.0)
-2025 Jonathan D.A. Jewell
+'''
+_Generated with ❤️ in AsciiDoc_
