@@ -72,8 +72,12 @@ One for every paradigm. No runtimes, no bloat.
 
 Every repository is an **RSR 2026** compliant artifact (Bronze to Rhodium tiers) featuring the **6SCM Layer** in `.machine_readable/6scm/`:
 
-* `STATE.scm`: Current state, roadmap, and blockers.
+
+
 * `META.scm`: Architectural Decision Records (ADRs) and rationale.
+* `STATE.scm`: Current state, roadmap, and blockers.
+* `ECOSYSTEM.scm`: .
+* `PLAYBOOK.scm`: .
 * `AGENTIC.scm`: Interaction patterns for AI agents.
 * `NEUROSYM.scm`: Reasoning rules and neurosymbolic integration.
 
