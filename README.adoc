@@ -12,6 +12,7 @@ image:https://img.shields.io/badge/repos-456-blue?style=flat-square[Repos] image
 == The Manifesto
 
 Jonathan architects **polyglot software** by exploring the fringes of computational theory.
+
 * **Reject Slop:** No "convenience code" or systemically flawed dependencies.
 * **Aspect-First:** Viable systems models built with cross-cutting concerns as first-class citizens.
 * **Formal Supremacy:** Formal verification is mandatory; unit testing is a secondary artifact.
