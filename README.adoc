@@ -8,7 +8,7 @@
 * [cite_start]**Social Systems:** Former Chair of Communications for the **IWW (European Region)** [cite: 91, 93] [cite_start]and representative for the **NUJ**[cite: 81, 98].
 
 ### 🚀 The Hyperpolymath Ecosystem
-I maintain an ecosystem of **412+ repositories** governed by the **RSR 2026 Standard**.
+I maintain an ecosystem of **500+ repositories** governed by the **RSR 2026 Standard**.
 
 | Constellation | Focus Area | Key Repository |
 | :--- | :--- | :--- |
