@@ -1,25 +1,27 @@
 # Jonathan D.A. Jewell | Systems Seams Architect & Neurosymbolic Researcher
 
-> [cite_start]**"Bridging the Theory-Practice Divide through Formal Logic and Cognitive Science."** [cite: 67]
+> **"Bridging the Theory-Practice Divide through Formal Logic and Cognitive Science."**
 
-### 🏛️ The Foundation
-* [cite_start]**Academic Background:** MSc in **Cognitive and Decision Sciences** (UCL) [cite: 144, 145] [cite_start]and MRes in **Art Theory and Philosophy** (UAL)[cite: 141, 142].
-* [cite_start]**Pedagogical Engineering:** 19+ years of educational consulting and curriculum innovation across UK Higher Education[cite: 35, 36, 40].
-* [cite_start]**Social Systems:** Former Chair of Communications for the **IWW (European Region)** [cite: 91, 93] [cite_start]and representative for the **NUJ**[cite: 81, 98].
+### The Foundation
+* **Academic Background:** MSc in **Cognitive and Decision Sciences** (UCL) and MRes in **Art Theory and Philosophy** (UAL).
+* **Pedagogical Engineering:** 19+ years of educational consulting and curriculum innovation across UK Higher Education.
+* **Social Systems:** Former Chair of Communications for the **IWW (European Region)** and representative for the **NUJ**.
 
-### 🚀 The Hyperpolymath Ecosystem
-I maintain an ecosystem of **500+ repositories** governed by the **RSR 2026 Standard**.
+### The Hyperpolymath Ecosystem
+I maintain an ecosystem of **275+ repositories** governed by the **RSR 2026 Standard**, consolidated from 580+ into focused monorepos.
 
-| Constellation | Focus Area | Key Repository |
+| Constellation | Focus Area | Key Repositories |
 | :--- | :--- | :--- |
-| **Science** | Neurosymbolic AI & Formal Methods | `llm-verify` |
-| **Engineering** | Polyglot SSGs & Model Context Protocol | `poly-mcp` |
-| **Governance** | RSR 2026 & 6SCM Architecture | `rsr-spec` |
+| **Languages** | Programming language design | `nextgen-languages`, `affinescript` |
+| **Infrastructure** | Polyglot tooling & cloud | `polystack`, `reposystem` |
+| **Governance** | RSR 2026 & 6SCM Architecture | `standards`, `contractiles` |
+| **Security** | Neurosymbolic CI/CD | `hypatia`, `mcp-repo-guardian` |
 | **Social Tech** | Executable Labor Contracts | `union-policy-parser` |
+| **FFI** | Cross-language bridges | `language-bridges` |
 
-### 🛠️ Technical Proficiencies
-* **Languages:** 50+ languages (Rust, Scheme, APL, Zig, RISC-V Assembly).
-* [cite_start]**Systems:** Solution development for SDLC, maintenance, and updates[cite: 57, 60, 61].
-* [cite_start]**Research:** Cognitive modeling, Information Ergonomics, and Axiology[cite: 68, 70].
+### Technical Proficiencies
+* **Languages:** 50+ languages (Rust, ReScript, Gleam, Zig, Ada, Scheme, Julia, OCaml, Haskell, Elixir).
+* **Systems:** Architectural seam engineering, immutable infrastructure, formal methods.
+* **Research:** Cognitive modeling, Information Ergonomics, Axiology.
 
-[Read the Manifesto](./manifesto) | [View the RSR 2026 Standard](./rsr-spec)
+[Read the Manifesto](https://github.com/hyperpolymath/manifesto) | [View the RSR 2026 Standard](https://github.com/hyperpolymath/rhodium-standard-repositories)
