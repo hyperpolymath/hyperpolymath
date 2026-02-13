@@ -12,7 +12,7 @@ I maintain an ecosystem of **275+ repositories** governed by the **RSR 2026 Stan
 
 | Constellation | Focus Area | Key Repositories |
 | :--- | :--- | :--- |
-| **Languages** | Programming language design | `nextgen-languages`, `affinescript` |
+| **Languages** | Programming language design | `nextgen-languages`, `eclexia` |
 | **Infrastructure** | Polyglot tooling & cloud | `polystack`, `reposystem` |
 | **Governance** | RSR 2026 & 6SCM Architecture | `standards`, `contractiles` |
 | **Security** | Neurosymbolic CI/CD | `hypatia`, `mcp-repo-guardian` |
