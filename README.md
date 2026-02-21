@@ -25,3 +25,8 @@ I maintain an ecosystem of **275+ repositories** governed by the **RSR 2026 Stan
 * **Research:** Cognitive modeling, Information Ergonomics, Axiology.
 
 [Read the Manifesto](https://github.com/hyperpolymath/manifesto) | [View the RSR 2026 Standard](https://github.com/hyperpolymath/rhodium-standard-repositories)
+
+
+== Architecture
+
+See link:TOPOLOGY.md[TOPOLOGY.md] for a visual architecture map and completion dashboard.
