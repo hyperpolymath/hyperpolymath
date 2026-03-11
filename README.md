@@ -1,4 +1,4 @@
-# Jonathan D.A. Jewell | Systems Seams Architect & Neurosymbolic Researcher
+# Jonathan D.A. Jewell | Systems SeamArchitect & Neurosymbolic Researcher
 
 > **"Bridging the Theory-Practice Divide through Formal Logic and Cognitive Science."**
 
