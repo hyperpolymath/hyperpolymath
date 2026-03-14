@@ -6,7 +6,7 @@
  * Version: 8.0.0
  * Requires at least: 6.0
  * Requires PHP: 8.1
- * Author: Hyper Polymath
+ * Author: Jonathan D.A. Jewell
  * Author URI: https://github.com/hyperpolymath
  * License: PMPL-1.0-or-later
  * License URI: https://github.com/hyperpolymath/palimpsest-license

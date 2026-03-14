@@ -5,10 +5,10 @@
 
 [source,bibtex]
 ----
-@software{zotpress_2025,
-  author = {Polymath, Hyper},
+@software{zotpress_2026,
+  author = {Jewell, Jonathan D.A.},
   title = {zotpress},
-  year = {2025},
+  year = {2026},
   url = {https://github.com/hyperpolymath/zotpress},
 license = "PMPL-1.0-or-later"
 }
@@ -16,19 +16,19 @@ license = "PMPL-1.0-or-later"
 
 == Harvard Style
 
-Polymath, H. (2025) _zotpress_ [Computer software]. Available at: https://github.com/hyperpolymath/zotpress
+Jewell, J.D.A. (2026) _zotpress_ [Computer software]. Available at: https://github.com/hyperpolymath/zotpress
 
 == OSCOLA
 
-Hyper Polymath, 'zotpress' (2025) <https://github.com/hyperpolymath/zotpress>
+Jonathan D.A. Jewell, 'zotpress' (2026) <https://github.com/hyperpolymath/zotpress>
 
 == MLA
 
-Polymath, Hyper. "zotpress." 2025, github.com/hyperpolymath/zotpress.
+Jewell, Jonathan D.A. "zotpress." 2026, github.com/hyperpolymath/zotpress.
 
 == APA 7
 
-Polymath, H. (2025). _zotpress_ [Computer software]. GitHub. https://github.com/hyperpolymath/zotpress
+Jewell, J.D.A. (2026). _zotpress_ [Computer software]. GitHub. https://github.com/hyperpolymath/zotpress
 
 == See Also
 
