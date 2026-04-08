@@ -1,0 +1,95 @@
+= Jonathan D.A. Jewell
+
+*Formal Methods · Programming Languages · Semantics of Computation*
+
+MSc Cognitive & Decision Sciences (UCL) · MRes Art Theory & Philosophy (UAL)
+19+ years experience in higher education (curriculum design, systems thinking, and interdisciplinary teaching)
+
+---
+
+== Research Focus
+
+My work explores how **computation, data, and programming languages can be structured around equivalence rather than raw value equality**.
+
+In particular, I investigate:
+
+* *Computation as construction*: values arise from structured paths rather than primitive operations
+* *Equivalence as identity*: objects are defined by transformation invariants (e.g. algebraic or topological equivalence)
+* *Language–database integration*: programming languages paired with systems that store and query equivalence classes
+
+This work draws on type theory, category theory, knot theory, and algebraic structures.
+
+---
+
+== Selected Projects
+
+=== Next-Generation Languages
+
+A family of experimental programming languages, each designed around a specific structural guarantee.
+
+* *JtV (Julia the Viper)* — explores computation as additive construction from neutral anchors (CNO), with identity defined by equivalence of construction paths
+* *KRL / Tangle* — a topological language where programs are braids and equivalence is isotopy; includes a mechanised core type system in Lean
+* Additional languages exploring resource constraints, real-time systems, and ethical reasoning
+
+→ https://github.com/hyperpolymath/nextgen-languages
+
+---
+
+=== Next-Generation Databases
+
+Database systems where identity is defined by equivalence classes rather than raw records.
+
+* *QuandleDB* — algebraic fingerprinting using quandle invariants
+* *Skein.jl* — persistence and rewrite-tracking for structured objects
+* Other systems exploring verified and narrative-first data models
+
+→ https://github.com/hyperpolymath/nextgen-databases
+
+---
+
+=== Formal Verification Work
+
+* Mechanised proofs of type safety (Lean 4) for core language fragments
+* Dependent-type libraries in Idris2 (protocol modelling, ABI guarantees)
+* Ongoing work on equivalence-preserving transformations across systems
+
+---
+
+== Technical Approach
+
+* *Languages*: Rust, Idris2, Zig, OCaml, Haskell, Julia, ReScript
+* *Methods*: dependent types, theorem proving, property-based testing
+* *Systems*: reproducible builds (Nix/Guix), formally constrained FFI boundaries
+
+I focus on **small, formally grounded cores**, with larger systems built around them.
+
+---
+
+== Background
+
+My background combines:
+
+* cognitive science (decision-making, modelling)
+* philosophy (structure, meaning, and representation)
+* software systems (teaching, design, and implementation)
+
+I have worked extensively in UK higher education, developing curricula and technical systems across disciplines.
+
+---
+
+== Notes
+
+This work is exploratory and research-oriented.
+Repositories contain a mix of:
+
+* formal specifications and proofs
+* prototype implementations
+* design-stage systems
+
+They should be read as *ongoing research*, not finished products.
+
+---
+
+== Contact
+
+[jonathan.jewell@gmail.com](mailto:jonathan.jewell@gmail.com)
