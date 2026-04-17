@@ -119,3 +119,6 @@ wp-content/cache/
 *.tmp
 *.temp
 .history/
+_build/
+deps/
+.elixir_ls/
