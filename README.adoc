@@ -55,6 +55,14 @@ Database systems where identity is defined by equivalence classes rather than ra
 
 ---
 
+=== Cognitive & Agentic Systems
+
+* *PanLL eNSAID* — A Human-Things Interface (HTI) designed as a cognitive-relief layer for neurosymbolic co-orbits. It provides a synchronous, 4-pane parallel environment (Ambient, Symbolic, Neural, World) to reduce friction and cognitive load when working with AI agents.
+
+→ https://github.com/hyperpolymath/panll
+
+---
+
 == Technical Approach
 
 * *Languages*: Rust, Idris2, Zig, OCaml, Haskell, Julia, ReScript
