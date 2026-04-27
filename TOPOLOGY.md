@@ -62,7 +62,7 @@ CORE ORCHESTRATION
 CONSTELLATIONS
   Languages (affinescript)          ██████░░░░  60%    Nextgen-languages active
   Security (hypatia)                ██████████ 100%    Neurosymbolic CI/CD stable
-  Infrastructure (polystack)        ████████░░  80%    Cloud native stack refining
+  Infrastructure (boj-server)       ██████████ 100%    Polystack superseded; BoJ cartridge model complete
   Governance (standards)            ██████████ 100%    Legal/Ethics protocols stable
 
 REPO INFRASTRUCTURE
