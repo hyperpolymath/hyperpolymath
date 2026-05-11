@@ -106,4 +106,5 @@ They should be read as *ongoing research*, not finished products.
 
 == Contact
 
-Jonathan D.A. Jewell [mailto:j.d.a.jewell@open.ac.uk]
+Jonathan D.A. Jewell 
+j.d.a.jewell@open.ac.uk
