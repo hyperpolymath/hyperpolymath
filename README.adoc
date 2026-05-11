@@ -5,7 +5,6 @@
 
 image:https://img.shields.io/badge/OpenSSF-Best_Practices-green?logo=opensourcesecurity[OpenSSF Best Practices,link="https://www.bestpractices.dev/en/projects/new?repo_url=https://github.com/hyperpolymath/hyperpolymath"]
 image:https://img.shields.io/badge/License-PMPL--1.0-blue.svg[License: PMPL-1.0,link="https://github.com/hyperpolymath/palimpsest-license"]
-image:https://api.thegreenwebfoundation.org/greencheckimage/github.com[Green Web,link="https://www.thegreenwebfoundation.org/green-web-check/?url=github.com"]
 
 *Formal Methods · Programming Languages · Semantics of Computation*
 
@@ -107,4 +106,4 @@ They should be read as *ongoing research*, not finished products.
 
 == Contact
 
-[j.d.a.jewell@open.ac.uk](mailto:j.d.a.jewell@open.ac.uk)
+[j.d.a.jewell@open.ac.uk] mailto:j.d.a.jewell@open.ac.uk
