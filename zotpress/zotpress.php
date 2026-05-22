@@ -8,12 +8,12 @@
  * Requires PHP: 8.1
  * Author: Jonathan D.A. Jewell
  * Author URI: https://github.com/hyperpolymath
- * License: PMPL-1.0-or-later
+ * License: MPL-2.0
  * License URI: https://github.com/hyperpolymath/palimpsest-license
  * Text Domain: zotpress
  * Domain Path: /languages
  *
- * SPDX-License-Identifier: PMPL-1.0-or-later
+ * SPDX-License-Identifier: MPL-2.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

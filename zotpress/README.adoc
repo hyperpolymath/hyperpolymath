@@ -1,5 +1,5 @@
 = zotpress
-image:https://img.shields.io/badge/License-PMPL--1.0--or--later-blue.svg[License: PMPL-1.0-or-later,link="https://github.com/hyperpolymath/palimpsest-license"]
+image:https://img.shields.io/badge/License-PMPL--1.0--or--later-blue.svg[License: MPL-2.0,link="https://github.com/hyperpolymath/palimpsest-license"]
 
 
 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
@@ -47,7 +47,7 @@ git clone {url-codeberg}
 
 == License
 
-Licensed under PMPL-1.0-or-later.
+Licensed under MPL-2.0.
 
 See link:LICENSE[LICENSE] for details.
 

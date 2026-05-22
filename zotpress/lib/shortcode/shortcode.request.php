@@ -605,7 +605,7 @@ function Zotpress_shortcode_request( $zpr=false, $checkcache=false )
 
 
 						// Next, replace special Word characters:
-						// Thanks to Walter Tross @ Stack Overflow; PMPL-1.0-or-later 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+						// Thanks to Walter Tross @ Stack Overflow; MPL-2.0 3.0: https://creativecommons.org/licenses/by-sa/3.0/
 						$chr_map = array(
 							"\xC2\x82" => "'",			// U+0082U+201A single low-9 quotation mark
 							"\xC2\x84" => '"',			// U+0084U+201E double low-9 quotation mark

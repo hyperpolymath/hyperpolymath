@@ -11,4 +11,4 @@ Thank you for your interest in contributing!
 
 ## Licensing
 
-By contributing, you agree that your contributions will be licensed under the project's PMPL-1.0-or-later license.
+By contributing, you agree that your contributions will be licensed under the project's MPL-2.0 license.
