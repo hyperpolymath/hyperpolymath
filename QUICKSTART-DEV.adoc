@@ -15,17 +15,10 @@
 
 [source,bash]
 ----
-guix shell
+guix shell -m guix.scm
 ----
 
-=== Option B: Nix (fallback)
-
-[source,bash]
-----
-nix develop
-----
-
-=== Option C: Manual
+=== Option B: Manual
 
 [source,bash]
 ----
@@ -61,7 +54,6 @@ hyperpolymath/
 ├── .machine_readable/    # Checkpoint files (STATE, META, ECOSYSTEM)
 ├── Justfile              # Task runner recipes
 ├── guix.scm              # Guix environment
-├── flake.nix             # Nix environment (fallback)
 └── 0-AI-MANIFEST.a2ml    # AI agent entry point
 ----
 

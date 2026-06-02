@@ -34,13 +34,6 @@ Output: `{{BUILD_OUTPUT_PATH}}`
 guix build -f guix.scm
 ----
 
-=== Nix
-
-[source,bash]
-----
-nix build
-----
-
 === Container (Stapeln)
 
 [source,bash]

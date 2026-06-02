@@ -73,7 +73,7 @@ Database systems where identity is defined by equivalence classes rather than ra
 
 * *Languages*: Rust, Idris2, Zig, OCaml, Haskell, Julia, ReScript
 * *Methods*: dependent types, theorem proving, property-based testing
-* *Systems*: reproducible builds (Nix/Guix), formally constrained FFI boundaries
+* *Systems*: reproducible builds (Guix), formally constrained FFI boundaries
 
 I focus on **small, formally grounded cores**, with larger systems built around them.
 
