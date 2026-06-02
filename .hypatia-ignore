@@ -1,0 +1,6 @@
+cicd_rules/banned_language_file:zotpress/scripts/build-css.res
+cicd_rules/banned_language_file:zotpress/scripts/build-js.res
+cicd_rules/banned_language_file:zotpress/scripts/build.res
+cicd_rules/banned_language_file:zotpress/src/js/zotpress.res
+cicd_rules/banned_language_file:zotpress/src/rescript/Utils.res
+cicd_rules/banned_language_file:zotpress/src/rescript/Zotpress.res
