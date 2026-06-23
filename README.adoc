@@ -5,7 +5,7 @@ hyperpolymath · they/them
 [.lead]
 Formal methods · programming languages · semantics of computation.
 
-PhD researcher and Associate Lecturer, The Open University. National Union of Journalists — NEC member and chair of the PR & Communications Council. MSc Cognitive & Decision Sciences (UCL); MRes Art Theory & Philosophy (UAL); 19+ years in UK higher education across curriculum design, systems thinking, and interdisciplinary teaching.
+Associate Lecturer, The Open University. National Union of Journalists — NEC member and chair of the PR & Communications Council. MSc Cognitive & Decision Sciences (UCL); MRes Art Theory & Philosophy (UAL); 19+ years in UK higher education across curriculum design, systems thinking, and interdisciplinary teaching.
 
 == What I work on
 
