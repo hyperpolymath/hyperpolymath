@@ -102,7 +102,6 @@ detect_platform() {
             elif command -v zypper >/dev/null 2>&1; then PKG_MGR="zypper"
             elif command -v rpm-ostree >/dev/null 2>&1; then PKG_MGR="rpm-ostree"
             elif command -v guix >/dev/null 2>&1; then PKG_MGR="guix"
-            elif command -v nix >/dev/null 2>&1; then PKG_MGR="nix"
             fi
             ;;
         Darwin*)
@@ -150,7 +149,6 @@ install_just() {
         winget)     winget install Casey.Just ;;
         rpm-ostree) sudo rpm-ostree install just ;;
         guix)       guix install just ;;
-        nix)        nix-env -iA nixpkgs.just ;;
         *)
             info "Using just installer script..."
             curl -fsSL https://just.systems/install.sh | bash -s -- --to /usr/local/bin

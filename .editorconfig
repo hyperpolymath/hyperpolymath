@@ -56,9 +56,6 @@ indent_size = 2
 [*.scm]
 indent_size = 2
 
-[*.nix]
-indent_size = 2
-
 [Justfile]
 indent_style = space
 indent_size = 4
