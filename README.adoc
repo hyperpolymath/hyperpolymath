@@ -1,115 +1,82 @@
-// SPDX-License-Identifier: MPL-2.0 and CC-BY-SA-4.0
-// SPDX-FileCopyrightText: 2024-2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+= Jonathan D.A. Jewell
+hyperpolymath · they/them
+:email: j.d.a.jewell@open.ac.uk
 
-= Jonathan D.A. Jewell (hyperpolymath) 2026
+[.lead]
+Formal methods · programming languages · semantics of computation.
 
-image:https://img.shields.io/badge/OpenSSF-Best_Practices-green?logo=opensourcesecurity[OpenSSF Best Practices,link="https://www.bestpractices.dev/en/projects/new?repo_url=https://github.com/hyperpolymath/hyperpolymath"]
-image:https://img.shields.io/badge/License-PMPL--1.0-blue.svg[License: PMPL-1.0,link="https://github.com/hyperpolymath/palimpsest-license"]
+PhD researcher and Associate Lecturer, The Open University. National Union of Journalists — NEC member and chair of the PR & Communications Council. MSc Cognitive & Decision Sciences (UCL); MRes Art Theory & Philosophy (UAL); 19+ years in UK higher education across curriculum design, systems thinking, and interdisciplinary teaching.
 
-*Formal Methods · Programming Languages · Semantics of Computation*
+== What I work on
 
-MSc Cognitive & Decision Sciences (UCL) · MRes Art Theory & Philosophy (UAL)
-19+ years experience in higher education (curriculum design, systems thinking, and interdisciplinary teaching)
+My research asks what changes when computation is organised around _equivalence_ rather than raw value equality — when two objects count as "the same" because a structure-preserving transformation relates them, not because their representations coincide. Three commitments follow:
 
----
+Computation as construction:: Values arise from structured paths rather than primitive operations, so the construction itself is the evidence for what a value _is_.
+Equivalence as identity:: Objects are defined by their transformation invariants — algebraic, topological, or order-theoretic — rather than by any single canonical form.
+Language–store co-design:: Languages are paired with systems that store and query equivalence classes directly, so identity survives the round trip from computation to persistence.
 
-== Research Focus
+The working toolkit is type theory, category theory, knot theory, and graded or ordered algebra. The method is deliberately conservative: small, formally grounded cores, with larger systems built around them.
 
-My work explores how **computation, data, and programming languages can be structured around equivalence rather than raw value equality**.
+== Where the work lives
 
-In particular, I investigate:
+=== Languages
 
-* *Computation as construction*: values arise from structured paths rather than primitive operations
-* *Equivalence as identity*: objects are defined by transformation invariants (e.g. algebraic or topological equivalence)
-* *Language–database integration*: programming languages paired with systems that store and query equivalence classes
+A family of experimental languages, each built around one structural guarantee.
 
-This work draws on type theory, category theory, knot theory, and algebraic structures.
+* *JtV (Julia the Viper)* — computation as additive construction from neutral anchors (CNO), with identity defined by equivalence of construction paths.
+* *KRL / Tangle* — a topological language in which programs are braids and equivalence is isotopy; the core type system is mechanised in Lean.
+* Further languages explore resource constraints, real-time guarantees, and ethical reasoning.
 
----
+→ https://github.com/hyperpolymath/nextgen-languages[nextgen-languages]
 
-== Selected Projects
+=== Databases
 
-=== Next-Generation Languages
+Stores in which identity is defined by structure, narrative, and equivalence class rather than by raw records.
 
-A family of experimental programming languages, each designed around a specific structural guarantee.
+* *QuandleDB* — algebraic fingerprinting using quandle invariants.
+* Alongside it, *Lithoglyph*, *VeriSimDB*, *Glyphbase*, and typed-trace storage experiments, each probing a different route to verified or narrative-first persistence.
 
-* *JtV (Julia the Viper)* — explores computation as additive construction from neutral anchors (CNO), with identity defined by equivalence of construction paths
-* *KRL / Tangle* — a topological language where programs are braids and equivalence is isotopy; includes a mechanised core type system in Lean
-* Additional languages exploring resource constraints, real-time systems, and ethical reasoning
+→ https://github.com/hyperpolymath/nextgen-databases[nextgen-databases]
 
-→ https://github.com/hyperpolymath/nextgen-languages
+=== Formal verification
 
----
+* Mechanised type-safety proofs (Lean 4) for core language fragments.
+* Dependent-type libraries in Idris2 for protocol modelling and ABI guarantees.
+* Ongoing work on equivalence-preserving transformations across languages and stores.
 
-=== Next-Generation Databases
+=== Cognitive and agentic systems
 
-Database systems where identity is defined by identity, narrative, and equivalence classes rather than raw records.
+* *PanLL eNSAID* — a Human–Things Immersive Interface (HTiI) acting as a cognitive-relief layer for neurosymbolic co-orbits: a synchronous four-pane environment (Ambient, Symbolic, Neural, World) that reduces friction and cognitive load when working alongside AI agents.
 
-* *Lithoglyph* — 
-* *Quandle* — algebraic fingerprinting using quandle invariants
-* *VeriSim* — 
-* Other systems exploring verified and narrative-first data models
+→ https://github.com/hyperpolymath/panll[panll]
 
-→ https://github.com/hyperpolymath/nextgen-databases
+== Method and tooling
 
----
+Languages:: Rust, Idris2, Zig, Haskell, Julia, AffineScript, Ephapax.
+Methods:: dependent types, theorem proving, property-based testing.
+Systems:: reproducible builds (Guix), formally constrained FFI boundaries.
 
-=== Formal Verification Work
+== Collaboration
 
-* Mechanised proofs of type safety (Lean 4) for core language fragments
-* Dependent-type libraries in Idris2 (protocol modelling, ABI guarantees)
-* Ongoing work on equivalence-preserving transformations across systems
+I am actively open to collaboration, and I would rather hear from you early than not at all. The portfolio is broad, but it is not a closed shop.
 
----
+The threads I am most keen to pursue with others sit where formal methods meet collective accountability: provenance and verifiable claims, governance of AI systems, and the application of typed, checkable reasoning to questions usually treated as purely social — trust, attribution, and responsibility. This connects directly to my NUJ work and to a longer-standing interest in solidarity economics.
 
-=== Cognitive & Agentic Systems
+If any of that resonates — whether you are a researcher, a maintainer, a journalist, or a student — open an issue on the relevant repository or email me. To gauge how settled a given project is before you invest time, read its `AFFIRMATION.adoc` first (see below).
 
-* *PanLL eNSAID* — A Human-Things Immersive Interface (HTiI) designed as a cognitive-relief layer for neurosymbolic co-orbits. It provides a synchronous, 4-pane parallel environment (Ambient, Symbolic, Neural, World) to reduce friction and cognitive load when working with AI agents.
+== Reading these repositories
 
-→ https://github.com/hyperpolymath/panll
+This is exploratory, research-oriented work. Repositories hold a mix of formal specifications and proofs, prototype implementations, and design-stage systems. Unless a document states otherwise, treat what you find as ongoing research rather than a finished product: findings are tentative and designs are provisional.
 
----
-
-== Technical Approach
-
-* *Languages*: Rust, Idris2, Zig, Ephapax, Haskell, Julia, AffineScript
-* *Methods*: dependent types, theorem proving, property-based testing
-* *Systems*: reproducible builds (Guix), formally constrained FFI boundaries
-
-I focus on **small, formally grounded cores**, with larger systems built around them.
-
----
-
-== Background
-
-My background combines:
-
-* cognitive science (decision-making, modelling)
-* philosophy (structure, meaning, and representation)
-* software systems (teaching, design, and implementation)
-
-I have worked extensively in UK higher education, developing curricula and technical systems across disciplines.
-
----
-
-== Notes
-
-This work is exploratory and research-oriented.
-Repositories contain a mix of:
-
-* formal specifications and proofs
-* prototype implementations
-* design-stage systems
-
-Except where expressly stated, read my work as *ongoing research*, not finished products.
-All findings are tentative. All designs are provisional, 
-
-But...if you really want to know the state of anything in particular, check out my *all new* AFFIRMATION.adoc in the repo root directories - true to the best of my knowledge and belief as to snapshot state, according to the timestamped document.
-NOTE: this is a new addition to my estate, so be patient as I bring them more widely - there is a past dated example in the AffineScript repo. 
-
----
+[NOTE]
+====
+For an honest snapshot of any one project, check `AFFIRMATION.adoc` in the repository root. Each is true to the best of my knowledge and belief as at its own timestamp. This is a recent addition, so coverage is still spreading across the estate; an early example lives in the AffineScript repository.
+====
 
 == Contact
 
-Jonathan D.A. Jewell 
-j.d.a.jewell@open.ac.uk
+Jonathan D.A. Jewell — j.d.a.jewell@open.ac.uk +
+ORCID https://orcid.org/0000-0002-3078-6652[0000-0002-3078-6652] +
+LinkedIn https://www.linkedin.com/in/jonathan-jewell[jonathan-jewell]
+
+// Licence: PMPL-1.0 (OpenSSF Best Practices). © Jonathan D.A. Jewell, 2026.
