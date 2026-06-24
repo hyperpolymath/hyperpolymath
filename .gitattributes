@@ -17,7 +17,6 @@
 *.chpl  text eol=lf
 *.scm   text eol=lf
 *.ncl   text eol=lf
-*.nix   text eol=lf
 
 # Docs
 *.md    text eol=lf diff=markdown
@@ -51,4 +50,3 @@ Containerfile  text eol=lf
 
 # Lock files
 Cargo.lock  text eol=lf -diff
-flake.lock  text eol=lf -diff
