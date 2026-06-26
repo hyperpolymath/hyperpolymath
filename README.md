@@ -51,7 +51,7 @@ guarantee.
   neutral anchors (CNO), with identity defined by equivalence of
   construction paths.
 
-- **KRL / Tangle** — a topological language in which programs are braids
+- **Tangle** — a topological language in which programs are braids
   and equivalence is isotopy; the core type system is mechanised in
   Lean.
 
