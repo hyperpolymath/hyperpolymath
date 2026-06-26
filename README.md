@@ -36,7 +36,7 @@ Languages are paired with systems that store and query equivalence
 classes directly, so identity survives the round trip from computation
 to persistence.
 
-The working toolkit is type theory, category theory, knot theory, and
+The working toolkit is trope theory, type theory, category theory, knot theory, and
 graded or ordered algebra. The method is deliberately conservative:
 small, formally grounded cores, with larger systems built around them.
 
