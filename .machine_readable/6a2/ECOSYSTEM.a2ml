@@ -8,3 +8,15 @@ ecosystem = "hyperpolymath"
 
 [position]
 type = "component"
+
+# ── Publishing (ADR-004: README single-source derivation) ──────────────────
+# README.adoc is canonical; README.md is DERIVED (GENERATED banner) because
+# GitHub special-cases README.md for the profile page / community-health.
+# Regenerated + freshness-checked by the readme-derive workflow. Do not hand-edit README.md.
+[publishing.readme]
+canonical = "README.adoc"
+derive    = true
+format    = "gfm"
+path      = "README.md"
+consumer  = "github-profile"
+reason    = "GitHub profile page special-cases README.md; the persistent profile notice will not clear without it"
