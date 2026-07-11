@@ -131,6 +131,22 @@ AffineScript repository.
 
 == Contact
 
+== How this estate is governed
+
+The public map is not the source of governance. The
+https://github.com/hyperpolymath/manifesto[manifesto] explains the estate's
+purpose; the
+https://github.com/hyperpolymath/standards/tree/main/constitution[estate
+constitution] states what may govern; the
+https://github.com/hyperpolymath/standards/tree/main/catalogue[standards
+catalogue] routes readers to applicable standards; and the
+https://github.com/hyperpolymath/standards/blob/main/constitution/KNOWN-TENSIONS.adoc[known-tensions
+register] records unresolved contradictions, architectural tensions, debt,
+drift, capacity limits, and incomplete work. Until the linked constitutional
+branch is adopted, its documents remain proposals rather than authorised policy.
+
+== Contact details
+
 Jonathan D.A. Jewell — mailto:j.d.a.jewell@open.ac.uk[j.d.a.jewell@open.ac.uk] +
 ORCID https://orcid.org/0000-0002-3078-6652[0000-0002-3078-6652] +
 LinkedIn https://www.linkedin.com/in/jonathan-jewell[jonathan-jewell]
