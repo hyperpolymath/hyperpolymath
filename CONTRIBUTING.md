@@ -41,6 +41,7 @@ hyperpolymath/
 ├── MAINTAINERS.md
 ├── README.adoc
 ├── SECURITY.md
+├── .guix-channel        # Guix channel definition (Perimeter 1)
 ├── guix.scm             # Guix manifest (Perimeter 1)
 └── Justfile             # Task runner (Perimeter 1)
 ```
