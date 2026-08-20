@@ -53,6 +53,7 @@ hyperpolymath/
 ├── docs/                 # Documentation
 ├── .machine_readable/    # Checkpoint files (STATE, META, ECOSYSTEM)
 ├── Justfile              # Task runner recipes
+├── .guix-channel         # Guix channel definition
 ├── guix.scm              # Guix environment
 └── 0-AI-MANIFEST.a2ml    # AI agent entry point
 ----

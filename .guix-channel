@@ -1,0 +1,17 @@
+;;
+;; SPDX-License-Identifier: MPL-2.0
+;; hyperpolymath - top-level estate landing repo Guix channel
+;;
+;; To use this channel, add to ~/.config/guix/channels.scm:
+;;
+;;   (channel
+;;     (name 'hyperpolymath)
+;;     (url "https://github.com/hyperpolymath/hyperpolymath")
+;;     (branch "main"))
+;;
+;; Then run: guix pull
+
+(channel
+ (version 0)
+ (url "https://github.com/hyperpolymath/hyperpolymath")
+ (branch "main"))
