@@ -13,7 +13,7 @@ This is the AI manifest for **hyperpolymath**. It declares:
 
 ### Machine-Readable Metadata: `.machine_readable/` ONLY
 
-These 6 SCM files MUST exist in `.machine_readable/` directory ONLY:
+These six descriptors MUST exist in `.machine_readable/descriptiles/` ONLY:
 1. **.machine_readable/descriptiles/STATE.a2ml** - Project state, progress, blockers
 2. **.machine_readable/descriptiles/META.a2ml** - Architecture decisions, governance
 3. **.machine_readable/descriptiles/ECOSYSTEM.a2ml** - Position in ecosystem, relationships
@@ -40,7 +40,7 @@ Bot-specific instructions for:
 
 ## CORE INVARIANTS
 
-1. **No SCM duplication** - Root must NOT contain .machine_readable/descriptiles/STATE.a2ml, .machine_readable/descriptiles/META.a2ml, etc.
+1. **No descriptor duplication** - Do not create root-level `STATE.a2ml`, `META.a2ml`, or the other descriptors listed above. Their canonical copies belong in `.machine_readable/descriptiles/`.
 2. **Single source of truth** - `.machine_readable/` is authoritative
 3. **No stale metadata** - If root SCMs exist, they are OUT OF DATE
 4. **License consistency** - All code MPL-2.0 unless platform requires MPL-2.0
@@ -58,12 +58,13 @@ hyperpolymath/
 ├── README.md                   # Project overview
 ├── [your source files]         # Main code
 ├── .machine_readable/          # SCM files (6 files)
-│   ├── .machine_readable/descriptiles/STATE.a2ml
-│   ├── .machine_readable/descriptiles/META.a2ml
-│   ├── .machine_readable/descriptiles/ECOSYSTEM.a2ml
-│   ├── .machine_readable/descriptiles/AGENTIC.a2ml
-│   ├── .machine_readable/descriptiles/NEUROSYM.a2ml
-│   └── .machine_readable/descriptiles/PLAYBOOK.a2ml
+│   └── descriptiles/
+│       ├── STATE.a2ml
+│       ├── META.a2ml
+│       ├── ECOSYSTEM.a2ml
+│       ├── AGENTIC.a2ml
+│       ├── NEUROSYM.a2ml
+│       └── PLAYBOOK.a2ml
 └── .bot_directives/            # Bot instructions
 ```
 
@@ -120,14 +121,14 @@ After reading this file, demonstrate understanding by stating:
 ## PRIORITY ACTION — this repository is not fully initialised
 
 8 substitution token(s) still have no value. **Read
-`REQUIRES_INITIALISATION.md` in the repository root before doing anything
+`REQUIRES_INITIALISATION.adoc` in the repository root before doing anything
 else here** — it lists every outstanding token, what it means, and which
 files it belongs in.
 
 Do not fabricate values for them, and do not delete the sections that
 contain them to quiet a gate. They are unfilled because they need a
 decision, not because they were overlooked. Resolve what you legitimately
-can, leave the rest, and delete `REQUIRES_INITIALISATION.md` only when
+can, leave the rest, and delete `REQUIRES_INITIALISATION.adoc` only when
 nothing outstanding remains.
 
 <!-- END requires-initialisation -->

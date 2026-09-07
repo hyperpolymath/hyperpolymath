@@ -22,5 +22,5 @@ permissions:
 
 jobs:
   readme-derive:
-    # Includes the version-pinned renderer and descriptiles publishing lookup.
-    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@a26cc7479b14cdf70433919bfc228625f1c5c6f2
+    # Includes the pinned renderer, descriptiles lookup and corrected gem install.
+    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@e7754993f39d26bba1c34a09bebf4c7bf765c216
