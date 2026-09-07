@@ -1,3 +1,4 @@
+# This workflow is managed by gh actions-lock.
 # SPDX-License-Identifier: MPL-2.0
 # README single-source derivation (ADR-004): README.adoc is canonical;
 # README.md is derived because GitHub special-cases README.md for the profile
@@ -14,16 +15,12 @@ on:
       - README.md
       - .machine_readable/**/ECOSYSTEM.a2ml
   pull_request:
-    paths:
-      - README.adoc
-      - README.md
-      - .machine_readable/**/ECOSYSTEM.a2ml
 
 permissions:
+  actions: read
   contents: read
 
 jobs:
   readme-derive:
-    # Pinned to the standards commit that introduced readme-derive-reusable.yml.
-    # Repin to include hyperpolymath/standards#476 once it lands on main.
-    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@db12a6ad3ef9076d5f7bdcf98d7d15cf8547555a
+    # Includes the pinned renderer, descriptiles lookup and corrected gem install.
+    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@a8f7249c3c5aef1ed6dfa16e637f13dfde815464

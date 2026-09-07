@@ -1,26 +1,36 @@
+# This workflow is managed by gh actions-lock.
 # SPDX-License-Identifier: MPL-2.0
 # Prevention workflow - validates all workflows have proper security config
 name: Workflow Security Linter
 on:
   pull_request:
-    paths:
-      - '.github/workflows/**'
   push:
     paths:
       - '.github/workflows/**'
-permissions: read-all
+permissions:
+  contents: read
 jobs:
   lint-workflows:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/checkout@v4.1.1
       - name: Check SPDX headers
         run: |
           errors=0
           for f in .github/workflows/*.yml .github/workflows/*.yaml; do
             [ -f "$f" ] || continue
-            if ! head -1 "$f" | grep -q "SPDX-License-Identifier"; then
+            # The native lock manager may precede SPDX with its own comment.
+            # Only accept SPDX within the leading comment/blank header block.
+            if ! awk '
+              /^[[:space:]]*#/ {
+                if ($0 ~ /^[[:space:]]*#[[:space:]]*SPDX-License-Identifier:[[:space:]]+[^[:space:]]+/) found=1
+                next
+              }
+              /^[[:space:]]*$/ { next }
+              { exit }
+              END { exit !found }
+            ' "$f"; then
               echo "ERROR: $f missing SPDX header"
               errors=$((errors + 1))
             fi
@@ -37,13 +47,9 @@ jobs:
             fi
           done
           exit $errors
-      - name: Check pinned actions
-        run: |
-          errors=0
-          for f in .github/workflows/*.yml .github/workflows/*.yaml; do
-            [ -f "$f" ] || continue
-            # Look for uses: without SHA
-            if grep -E "uses:.*@v[0-9]" "$f" | grep -v "#"; then
-              echo "WARNING: $f has unpinned actions (missing SHA comment)"
-            fi
-          done
+      - name: Install the authoritative lockfile verifier
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh extension install github/gh-actions-lock --pin v0.1.6
+      - name: Verify dependency lock coverage
+        run: gh actions-lock --verify-local

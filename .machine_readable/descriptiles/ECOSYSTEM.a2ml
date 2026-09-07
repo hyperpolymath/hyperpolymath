@@ -20,3 +20,7 @@ format    = "gfm"
 path      = "README.md"
 consumer  = "github-profile"
 reason    = "GitHub profile page special-cases README.md; the persistent profile notice will not clear without it"
+
+[research-links]
+firmboot = "https://github.com/hyperpolymath/firmboot"
+continuity = "Synchronic coherence and diachronic commitments under software transformation; research prototype"

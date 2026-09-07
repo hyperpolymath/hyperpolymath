@@ -34,6 +34,11 @@ The working toolkit is trope theory, type theory, category theory, knot theory, 
 graded or ordered algebra. The method is deliberately conservative:
 small, formally grounded cores, with larger systems built around them.
 
+Identity also has a temporal dimension: what makes a system coherent at a given
+moment (_synchronic_), and which commitments survive its transformations over
+time (_diachronic_)? This connects the equivalence work to the continuity of
+running software, with the preserved properties stated explicitly.
+
 == Where the work lives
 
 === Languages
@@ -47,6 +52,11 @@ construction paths.
 * *Tangle* — a topological language in which programs are braids
 and equivalence is isotopy; the core type system is mechanised in
 Lean.
+* https://github.com/hyperpolymath/firmboot[*Firmboot*] — continuity through
+software change: a research prototype with Agda and Lean models and an Elixir
+reference runner. Motivations include water and ecological monitoring and
+preserving people's desktop work through updates; resource limits and safe
+stopping remain part of the design obligations.
 * Further languages explore resource constraints, real-time guarantees,
 and ethical reasoning.
 
