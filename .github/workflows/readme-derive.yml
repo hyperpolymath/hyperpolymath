@@ -1,3 +1,4 @@
+# This workflow is managed by gh actions-lock.
 # SPDX-License-Identifier: MPL-2.0
 # README single-source derivation (ADR-004): README.adoc is canonical;
 # README.md is derived because GitHub special-cases README.md for the profile
@@ -24,6 +25,5 @@ permissions:
 
 jobs:
   readme-derive:
-    # Pinned to the standards commit that introduced readme-derive-reusable.yml.
-    # Repin to include hyperpolymath/standards#476 once it lands on main.
-    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@db12a6ad3ef9076d5f7bdcf98d7d15cf8547555a
+    # Includes the version-pinned renderer and descriptiles publishing lookup.
+    uses: hyperpolymath/standards/.github/workflows/readme-derive-reusable.yml@a26cc7479b14cdf70433919bfc228625f1c5c6f2

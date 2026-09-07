@@ -20,19 +20,24 @@ Computation as construction\
 Values arise from structured paths rather than primitive operations, so
 the construction itself is the evidence for what a value *is*.
 
-Equivalence as identity\
+Equivalence as identity (Mathematical)\
 Objects are defined by their transformation invariants — algebraic,
 topological, or order-theoretic — rather than by any single canonical
 form.
 
 Language–store co-design\
 Languages are paired with systems that store and query equivalence
-classes directly, so identity survives the round trip from computation
-to persistence.
+classes directly, so individuation survives the round trip from computation
+to persistence (avoiding circular dependency on raw storage records).
 
 The working toolkit is trope theory, type theory, category theory, knot theory, and
 graded or ordered algebra. The method is deliberately conservative:
 small, formally grounded cores, with larger systems built around them.
+
+Identity also has a temporal dimension: what makes a system coherent at a given
+moment (*synchronic*), and which commitments survive its transformations over
+time (*diachronic*)? This connects the equivalence work to the continuity of
+running software, with the preserved properties stated explicitly.
 
 # Where the work lives
 
@@ -49,6 +54,12 @@ guarantee.
   and equivalence is isotopy; the core type system is mechanised in
   Lean.
 
+- [**Firmboot**](https://github.com/hyperpolymath/firmboot) — continuity through
+  software change: a research prototype with Agda and Lean models and an Elixir
+  reference runner. Motivations include water and ecological monitoring and
+  preserving people’s desktop work through updates; resource limits and safe
+  stopping remain part of the design obligations.
+
 - Further languages explore resource constraints, real-time guarantees,
   and ethical reasoning.
 
@@ -60,9 +71,9 @@ guarantee.
 Stores in which identity is defined by structure, narrative, and
 equivalence class rather than by raw records.
 
-- **QuandleDB** — algebraic fingerprinting using quandle invariants.
+- [**QuandleDB**](https://github.com/hyperpolymath/quandledb) — algebraic fingerprinting using quandle invariants.
 
-- Alongside it, **Lithoglyph**, **VeriSimDB**, **Glyphbase**, and
+- Alongside it, [**LithoglyphDB**](https://github.com/hyperpolymath/lithoglyphdb), [**VeriSimDB**](https://github.com/hyperpolymath/verisimdb), [**Glyphbase**](https://github.com/hyperpolymath/glyphbase), and
   typed-trace storage experiments, each probing a different route to
   verified or narrative-first persistence.
 
@@ -81,9 +92,9 @@ equivalence class rather than by raw records.
 
 ## Cognitive and agentic systems
 
-- **PanLL eNSAID** — a Human–Things Immersive Interface (HTiI) acting as
-  a cognitive-relief layer for neurosymbolic co-orbits: a synchronous
-  four-pane environment (Ambient, Symbolic, Neural, World) that reduces
+- **PanLL eNSAID** — a Human–Things Immersive Interface (HTiI). It acts as
+  a cognitive-relief layer for neurosymbolic co-orbits. The system provides a synchronous
+  four-pane environment (Ambient, Symbolic, Neural, World) designed to reduce
   friction and cognitive load when working alongside AI agents.
 
 → [panll](https://github.com/hyperpolymath/panll)
@@ -115,7 +126,7 @@ work and to a longer-standing interest in solidarity economics.
 If any of that resonates — whether you are a researcher, a maintainer, a
 journalist, or a student — open an issue on the relevant repository or
 email me. To gauge how settled a given project is before you invest
-time, read its `AFFIRMATION.adoc` first (see below).
+time, read its `AFFIRMATION.adoc` first (see the Affirmations section below).
 
 # Reading these repositories
 
@@ -125,14 +136,32 @@ design-stage systems. Unless a document states otherwise, treat what you
 find as ongoing research rather than a finished product: findings are
 tentative and designs are provisional.
 
-> [!NOTE]
-> For an honest snapshot of any one project, check `AFFIRMATION.adoc` in
-> the repository root. Each is true to the best of my knowledge and
-> belief as at its own timestamp. This is a recent addition, so coverage
-> is still spreading across the estate; an early example lives in the
-> AffineScript repository.
+# Affirmations
+
+For an honest snapshot of any one project, check `AFFIRMATION.adoc` in
+the repository root. Each statement is true to the best of my knowledge and
+belief as at its own timestamp.
+
+This practice is a recent addition, so coverage is still spreading across the estate.
+An early example lives in the AffineScript repository.
 
 # Contact
+
+# Self-Governing Software Estate
+
+The public map is not the source of governance. The
+[manifesto](https://github.com/hyperpolymath/manifesto) explains the estate’s
+purpose; the
+[estate
+constitution](https://github.com/hyperpolymath/standards/tree/main/constitution) states what may govern; the
+[standards
+catalogue](https://github.com/hyperpolymath/standards/tree/main/catalogue) routes readers to applicable standards; and the
+[known-tensions
+register](https://github.com/hyperpolymath/standards/blob/main/constitution/KNOWN-TENSIONS.adoc) records unresolved contradictions, architectural tensions, debt,
+drift, capacity limits, and incomplete work. Until the linked constitutional
+branch is adopted, its documents remain proposals rather than authorised policy.
+
+# Contact details
 
 Jonathan D.A. Jewell — <j.d.a.jewell@open.ac.uk>\
 ORCID [0000-0002-3078-6652](https://orcid.org/0000-0002-3078-6652)\

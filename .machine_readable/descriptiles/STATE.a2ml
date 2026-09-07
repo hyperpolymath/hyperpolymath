@@ -5,10 +5,13 @@
 [metadata]
 project = "hyperpolymath"
 version = "0.1.0"
-last-updated = "2026-03-15"
+last-updated = "2026-09-07"
 status = "active"
 
 [project-context]
 name = "hyperpolymath"
 completion-percentage = 0
 phase = "In development"
+
+[recent-work]
+firmboot = "2026-09-07: linked Firmboot's continuity research to identity under transformation, ecological monitoring and desktop work preservation; README.adoc remains canonical."
