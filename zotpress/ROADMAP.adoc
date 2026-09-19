@@ -371,7 +371,7 @@ Target: Next-generation features and integrations
 
 * link:STATE.scm[STATE.scm] — Current project state
 * link:META.scm[META.scm] — Architecture decisions
-* link:CONTRIBUTING.md[CONTRIBUTING.md] — Contribution guidelines
+* link:../.github/CONTRIBUTING.md[CONTRIBUTING.md] — Contribution guidelines
 * link:SECURITY.md[SECURITY.md] — Security policy
 
 == Changelog
