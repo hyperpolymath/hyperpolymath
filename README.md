@@ -1,168 +1,75 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 <!-- GENERATED from README.adoc by standards/.github/workflows/readme-derive-reusable.yml — do not edit. -->
 
-Formal methods · programming languages · semantics of computation.
+Associate Lecturer, The Open University \| NEC Member, National Union of Journalists (UK)
+MSc Cognitive & Decision Sciences (UCL) \| MRes Art Theory & Philosophy (UAL)
 
-Associate Lecturer, The Open University. National Union of Journalists —
-NEC member and chair of the PR & Communications Council. MSc Cognitive &
-Decision Sciences (UCL); MRes Art Theory & Philosophy (UAL); 19+ years
-in UK higher education across curriculum design, systems thinking, and
-interdisciplinary teaching.
+# Research Vision: Equivalence-Centric Computation
 
-# What I work on
+My research investigates the foundations of computation when systems are organized around **transformation equivalence rather than raw value representation**. By treating equivalence as identity, we unlock language–store co-designs where data individuation, memory reclamation, and computational continuity survive state transitions and federation boundaries.
 
-My research asks what changes when computation is organised around
-*equivalence* rather than raw value equality — when two objects count as
-"the same" because a structure-preserving transformation relates them,
-not because their representations coincide. Three commitments follow:
+## Core Research Pillars & Verified Artifacts
 
-Computation as construction\
-Values arise from structured paths rather than primitive operations, so
-the construction itself is the evidence for what a value *is*.
+1.  **Foundational Type & Category Theory:**
 
-Equivalence as identity (Mathematical)\
-Objects are defined by their transformation invariants — algebraic,
-topological, or order-theoretic — rather than by any single canonical
-form.
+    - **Absolute Zero:** Polyglot formalization (Coq, Lean 4, Agda, Isabelle, Mizar, Z3) of Certified Null Operations (CNO) and Observational Null Disclosure (OND).
 
-Language–store co-design\
-Languages are paired with systems that store and query equivalence
-classes directly, so individuation survives the round trip from computation
-to persistence (avoiding circular dependency on raw storage records).
+    - **Substructural Residues & Tropical Typing:** Dependency-free Lean 4 formalization of max-plus resource typing (\$0\$ axioms, \$0\$ sorry), establishing exact dynamic worst-case cost bounds.
 
-The working toolkit is trope theory, type theory, category theory, knot theory, and
-graded or ordered algebra. The method is deliberately conservative:
-small, formally grounded cores, with larger systems built around them.
+    - **Epistemic & Echo Modalities:** Constructive Agda developments formalizing standpoint-indexed warrants, semantic proof transport, and preimage homotopy fibers (\$\Sigma (x : A), f(x) \equiv y\$).
 
-Identity also has a temporal dimension: what makes a system coherent at a given
-moment (*synchronic*), and which commitments survive its transformations over
-time (*diachronic*)? This connects the equivalence work to the continuity of
-running software, with the preserved properties stated explicitly.
+2.  **Language & Systems Co-Design:**
 
-# Where the work lives
+    - **Ephapax (ἐφάπαξ):** A memory-safe systems language targeting WebAssembly (`wasm32`) via dyadic linear/affine modalities and region capabilities—eliminating runtime GC pauses and allocator overhead. Complete 17-crate Rust compiler workspace with 4-layer Coq/Idris2 soundness formalizations.
 
-## Languages
+    - **Oblíbený & Valence Shell (vsh):** A dual-form, Turing-incomplete language and verified shell implementing the Mutually Assured Accountability (MAA) framework, featuring first-class linear echo residues and post-quantum cryptographic primitives.
 
-A family of experimental languages, each built around one structural
-guarantee.
+    - **VeriSimDB & VCL-UT:** An 8-modal identity-consonance database driven by an 11-level type-safe consonance language.
 
-- **JtV (Julia the Viper)** — computation as additive construction from
-  neutral anchors (CNO), with identity defined by equivalence of
-  construction paths.
+3.  **Cognitive Interfaces & Public-Interest Governance:**
 
-- **Tangle** — a topological language in which programs are braids
-  and equivalence is isotopy; the core type system is mechanised in
-  Lean.
+    - **PanLL eNSAID:** A synchronous 4-pane interface (Ambient, Symbolic, Neural, World) designed to minimize cognitive load in human-AI neurosymbolic collaboration.
 
-- [**Firmboot**](https://github.com/hyperpolymath/firmboot) — continuity through
-  software change: a research prototype with Agda and Lean models and an Elixir
-  reference runner. Motivations include water and ecological monitoring and
-  preserving people’s desktop work through updates; resource limits and safe
-  stopping remain part of the design obligations.
+    - **Solidarity & Accountability Infrastructure:** Translating formal verification guarantees into collective social accountability: provable GDPR erasure (RMO), cryptographic provenance, and verifiable AI governance.
 
-- Further languages explore resource constraints, real-time guarantees,
-  and ethical reasoning.
+# Tooling & Verification Methodology
 
-→
-[nextgen-languages](https://github.com/hyperpolymath/nextgen-languages)
+- **Proof Engineering:** Coq (8.18+), Lean 4 (4.13+), Agda (2.6.4+), Idris 2 (0.8.0), Z3 SMT.
 
-## Databases
+- **Systems Programming:** Rust (Production workspaces, CLI, WASM codegen), Zig (C-ABI FFI, Zero-copy buffers), OCaml.
 
-Stores in which identity is defined by structure, narrative, and
-equivalence class rather than by raw records.
+- **Reproducibility:** GNU Guix reproducible environments, formal FFI boundaries, and strict property-based testing suites.
 
-- [**QuandleDB**](https://github.com/hyperpolymath/quandledb) — algebraic fingerprinting using quandle invariants.
+# Collaboration & Engagement
 
-- Alongside it, [**LithoglyphDB**](https://github.com/hyperpolymath/lithoglyphdb), [**VeriSimDB**](https://github.com/hyperpolymath/verisimdb), [**Glyphbase**](https://github.com/hyperpolymath/glyphbase), and
-  typed-trace storage experiments, each probing a different route to
-  verified or narrative-first persistence.
+I am actively open to research collaborations, grants, and high-assurance engineering partnerships at the intersection of **formal methods, programming languages, and democratic/collective accountability**.
 
-→
-[nextgen-databases](https://github.com/hyperpolymath/nextgen-databases)
+- **Academic & Research:** <j.d.a.jewell@open.ac.uk>
 
-## Formal verification
+- **ORCID:** \[0000-0002-3078-6652\](<https://orcid.org/0000-0002-3078-6652>)
 
-- Mechanised type-safety proofs (Lean 4) for core language fragments.
+- **LinkedIn:** \[jonathan-jewell\](<https://www.linkedin.com/in/jonathan-jewell/>)
 
-- Dependent-type libraries in Idris2 for protocol modelling and ABI
-  guarantees.
+- **Project Specifications & Proof Censuses:** Available in repository root `EXPLAINME.adoc` and `STATUS.adoc` files.
 
-- Ongoing work on equivalence-preserving transformations across
-  languages and stores.
+# Where things live
 
-## Cognitive and agentic systems
+Three owners, one rule — the owner is whoever could legitimately be a co-author:
 
-- **PanLL eNSAID** — a Human–Things Immersive Interface (HTiI). It acts as
-  a cognitive-relief layer for neurosymbolic co-orbits. The system provides a synchronous
-  four-pane environment (Ambient, Symbolic, Neural, World) designed to reduce
-  friction and cognitive load when working alongside AI agents.
+- **hyperpolymath** (here) — single-author scholarship. The spine, pinned above: the type family
+  (echo, choreographic, tropical, epistemic, residual-evidence, secret, occupancy), its kernel
+  [resource-algebra](https://github.com/hyperpolymath/resource-algebra), the maps
+  ([typing](https://github.com/hyperpolymath/nextgen-typing),
+  [languages](https://github.com/hyperpolymath/nextgen-languages),
+  [databases](https://github.com/hyperpolymath/nextgen-databases)) and
+  [invariant-path](https://github.com/hyperpolymath/invariant-path) as the front-end.
+  Every family repo carries a PROOF-STATUS with five statuses; nothing is claimed in prose that the
+  artefact does not check.
 
-→ [panll](https://github.com/hyperpolymath/panll)
+- **[metadatastician](https://github.com/metadatastician)** — shared authorship and shared tooling:
+  joint research and the estate’s infrastructure.
 
-# Method and tooling
+- **[Invisible Door Studios](https://github.com/invisible-door-studios)** — the game studio, with Joshua.
 
-Languages\
-Rust, Idris2, Zig, Haskell, Julia, AffineScript, Ephapax.
-
-Methods\
-dependent types, theorem proving, property-based testing.
-
-Systems\
-reproducible builds (Guix), formally constrained FFI boundaries.
-
-# Collaboration
-
-I am actively open to collaboration, and I would rather hear from you
-early than not at all. The portfolio is broad, but it is not a closed
-shop.
-
-The threads I am most keen to pursue with others sit where formal
-methods meet collective accountability: provenance and verifiable
-claims, governance of AI systems, and the application of typed,
-checkable reasoning to questions usually treated as purely social —
-trust, attribution, and responsibility. This connects directly to my NUJ
-work and to a longer-standing interest in solidarity economics.
-
-If any of that resonates — whether you are a researcher, a maintainer, a
-journalist, or a student — open an issue on the relevant repository or
-email me. To gauge how settled a given project is before you invest
-time, read its `AFFIRMATION.adoc` first (see the Affirmations section below).
-
-# Reading these repositories
-
-This is exploratory, research-oriented work. Repositories hold a mix of
-formal specifications and proofs, prototype implementations, and
-design-stage systems. Unless a document states otherwise, treat what you
-find as ongoing research rather than a finished product: findings are
-tentative and designs are provisional.
-
-# Affirmations
-
-For an honest snapshot of any one project, check `AFFIRMATION.adoc` in
-the repository root. Each statement is true to the best of my knowledge and
-belief as at its own timestamp.
-
-This practice is a recent addition, so coverage is still spreading across the estate.
-An early example lives in the AffineScript repository.
-
-# Contact
-
-# Self-Governing Software Estate
-
-The public map is not the source of governance. The
-[manifesto](https://github.com/hyperpolymath/manifesto) explains the estate’s
-purpose; the
-[estate
-constitution](https://github.com/hyperpolymath/standards/tree/main/constitution) states what may govern; the
-[standards
-catalogue](https://github.com/hyperpolymath/standards/tree/main/catalogue) routes readers to applicable standards; and the
-[known-tensions
-register](https://github.com/hyperpolymath/standards/blob/main/constitution/KNOWN-TENSIONS.adoc) records unresolved contradictions, architectural tensions, debt,
-drift, capacity limits, and incomplete work. Until the linked constitutional
-branch is adopted, its documents remain proposals rather than authorised policy.
-
-# Contact details
-
-Jonathan D.A. Jewell — <j.d.a.jewell@open.ac.uk>\
-ORCID [0000-0002-3078-6652](https://orcid.org/0000-0002-3078-6652)\
-LinkedIn [jonathan-jewell](https://www.linkedin.com/in/jonathan-jewell)
+Repos that are only a promise are private until they hold a theorem, running code or a decision
+record; duplicates are archived, not deleted.

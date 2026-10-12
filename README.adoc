@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: CC-BY-SA-4.0
 # Jonathan D.A. Jewell
 ### Formal Methods · Programming Language Semantics · High-Assurance Systems
 
@@ -44,3 +45,23 @@ I am actively open to research collaborations, grants, and high-assurance engine
 * **ORCID:** [0000-0002-3078-6652](https://orcid.org/0000-0002-3078-6652)
 * **LinkedIn:** [jonathan-jewell](https://www.linkedin.com/in/jonathan-jewell/)
 * **Project Specifications & Proof Censuses:** Available in repository root `EXPLAINME.adoc` and `STATUS.adoc` files.
+
+== Where things live
+
+Three owners, one rule — the owner is whoever could legitimately be a co-author:
+
+* *hyperpolymath* (here) — single-author scholarship. The spine, pinned above: the type family
+  (echo, choreographic, tropical, epistemic, residual-evidence, secret, occupancy), its kernel
+  https://github.com/hyperpolymath/resource-algebra[resource-algebra], the maps
+  (https://github.com/hyperpolymath/nextgen-typing[typing],
+  https://github.com/hyperpolymath/nextgen-languages[languages],
+  https://github.com/hyperpolymath/nextgen-databases[databases]) and
+  https://github.com/hyperpolymath/invariant-path[invariant-path] as the front-end.
+  Every family repo carries a PROOF-STATUS with five statuses; nothing is claimed in prose that the
+  artefact does not check.
+* *https://github.com/metadatastician[metadatastician]* — shared authorship and shared tooling:
+  joint research and the estate's infrastructure.
+* *https://github.com/invisible-door-studios[Invisible Door Studios]* — the game studio, with Joshua.
+
+Repos that are only a promise are private until they hold a theorem, running code or a decision
+record; duplicates are archived, not deleted.
